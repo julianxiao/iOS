@@ -9,6 +9,6 @@ iPhotobook is an iPhone app that enables users to create and edit photo books on
 
 ##Client UI##
 
-![Image](iphotobook)
+![Image](iphotobook.jpg)
 
 
