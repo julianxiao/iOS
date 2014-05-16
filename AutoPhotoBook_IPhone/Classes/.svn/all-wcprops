@@ -1,0 +1,599 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/itd/!svn/ver/17360/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes
+END
+SingleImageGetQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SingleImageGetQueue.h
+END
+SettingsManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/itd/!svn/ver/12167/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SettingsManager.h
+END
+ThumbnailGetQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/itd/!svn/ver/11617/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/ThumbnailGetQueue.m
+END
+ThumbnailScrollView.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/itd/!svn/ver/17360/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/ThumbnailScrollView.h
+END
+BuildPDFQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/BuildPDFQueue.h
+END
+SingleImageGetQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/itd/!svn/ver/11634/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SingleImageGetQueue.m
+END
+Gallery.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/Gallery.h
+END
+SettingsManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/itd/!svn/ver/12167/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SettingsManager.m
+END
+NSString+SBJSON.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/NSString+SBJSON.h
+END
+NSObject+SBJSON.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/NSObject+SBJSON.h
+END
+AutoCropQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/itd/!svn/ver/11657/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/AutoCropQueue.h
+END
+GetAutoCropQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/11598/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/GetAutoCropQueue.h
+END
+SelectorInvokeQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SelectorInvokeQueue.h
+END
+ThumbnailScrollView.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/itd/!svn/ver/17360/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/ThumbnailScrollView.m
+END
+BuildPDFQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/itd/!svn/ver/11471/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/BuildPDFQueue.m
+END
+Gallery.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/Gallery.m
+END
+PhotoStripView.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PhotoStripView.h
+END
+NSString+SBJSON.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/NSString+SBJSON.m
+END
+NSObject+SBJSON.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/NSObject+SBJSON.m
+END
+AutoCropQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/itd/!svn/ver/11657/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/AutoCropQueue.m
+END
+GetAutoCropQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/11634/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/GetAutoCropQueue.m
+END
+SelectorInvokeQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SelectorInvokeQueue.m
+END
+PhotoStripView.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/itd/!svn/ver/11598/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PhotoStripView.m
+END
+SBJsonParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SBJsonParser.h
+END
+iphotobookThumbnailAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/itd/!svn/ver/12167/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/iphotobookThumbnailAppDelegate.h
+END
+SBJsonParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SBJsonParser.m
+END
+iphotobookThumbnailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/iphotobookThumbnailViewController.h
+END
+ThumbnailImageView.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/itd/!svn/ver/11447/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/ThumbnailImageView.h
+END
+iphotobookThumbnailAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/iphotobookThumbnailAppDelegate.m
+END
+SingleImageViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/itd/!svn/ver/11683/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SingleImageViewController.h
+END
+iphotobookThumbnailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/iphotobookThumbnailViewController.m
+END
+ThumbnailImageView.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/ThumbnailImageView.m
+END
+BookLayoutViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/BookLayoutViewController.h
+END
+LayoutScrollView.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/LayoutScrollView.h
+END
+SingleImageViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/itd/!svn/ver/11683/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SingleImageViewController.m
+END
+SBJsonBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SBJsonBase.h
+END
+Pagination.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/Pagination.h
+END
+BookLayoutViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/itd/!svn/ver/11652/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/BookLayoutViewController.m
+END
+LayoutScrollView.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/LayoutScrollView.m
+END
+SBJSON.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SBJSON.h
+END
+Pagination.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/Pagination.m
+END
+SBJsonBase.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SBJsonBase.m
+END
+SBJSON.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SBJSON.m
+END
+PageView.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/itd/!svn/ver/12269/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PageView.h
+END
+SingleImageCropViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/itd/!svn/ver/11657/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SingleImageCropViewController.h
+END
+PageView.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/itd/!svn/ver/12762/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PageView.m
+END
+Page.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/Page.h
+END
+SingleImageCropViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/itd/!svn/ver/11683/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SingleImageCropViewController.m
+END
+LoginQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/itd/!svn/ver/12167/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/LoginQueue.h
+END
+ThumbsDataSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/11634/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/ThumbsDataSource.h
+END
+Page.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/Page.m
+END
+LoginQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/itd/!svn/ver/12167/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/LoginQueue.m
+END
+BookLayoutData.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/BookLayoutData.h
+END
+ThumbsDataSource.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/ThumbsDataSource.m
+END
+BookLayoutData.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/BookLayoutData.m
+END
+Env.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/Env.h
+END
+Env.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/Env.m
+END
+PageViewCropQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PageViewCropQueue.h
+END
+SetupImageViewQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/itd/!svn/ver/11471/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SetupImageViewQueue.h
+END
+PageViewCropQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PageViewCropQueue.m
+END
+DataLoaderQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/DataLoaderQueue.h
+END
+GalleriesViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/GalleriesViewController.h
+END
+SetupImageViewQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/itd/!svn/ver/11471/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SetupImageViewQueue.m
+END
+NSData+ReadableDescription.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/NSData+ReadableDescription.h
+END
+DataLoaderQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/DataLoaderQueue.m
+END
+GalleriesViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/itd/!svn/ver/11652/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/GalleriesViewController.m
+END
+NSData+ReadableDescription.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/NSData+ReadableDescription.m
+END
+BaseQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/BaseQueue.h
+END
+InitResourceQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/InitResourceQueue.h
+END
+BaseQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/BaseQueue.m
+END
+InitResourceQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/InitResourceQueue.m
+END
+URLLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/URLLoader.h
+END
+SBJsonWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SBJsonWriter.h
+END
+PaginationQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PaginationQueue.h
+END
+URLLoader.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/URLLoader.m
+END
+SBJsonWriter.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/SBJsonWriter.m
+END
+Utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/itd/!svn/ver/11496/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/Utils.h
+END
+GetAlbumPhotosQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/itd/!svn/ver/11471/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/GetAlbumPhotosQueue.h
+END
+PaginationQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/itd/!svn/ver/11617/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PaginationQueue.m
+END
+BookLayoutDatasource.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/BookLayoutDatasource.h
+END
+PageLayoutData.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PageLayoutData.h
+END
+GlobalController.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/12167/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/GlobalController.h
+END
+Utils.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/itd/!svn/ver/12269/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/Utils.m
+END
+PhotoStripThumbView.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PhotoStripThumbView.h
+END
+PaginationParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PaginationParser.h
+END
+GetAlbumPhotosQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/itd/!svn/ver/17318/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/GetAlbumPhotosQueue.m
+END
+BookLayoutDatasource.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/BookLayoutDatasource.m
+END
+PageLayoutData.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PageLayoutData.m
+END
+GlobalController.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/12172/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/GlobalController.m
+END
+JSON.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/JSON.h
+END
+TapDetectingImageView.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/itd/!svn/ver/11598/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/TapDetectingImageView.h
+END
+PhotoStripThumbView.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PhotoStripThumbView.m
+END
+PaginationParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/11715/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PaginationParser.m
+END
+LoginController.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/itd/!svn/ver/11652/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/LoginController.h
+END
+PhotoPosition.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PhotoPosition.h
+END
+TapDetectingImageView.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/itd/!svn/ver/11598/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/TapDetectingImageView.m
+END
+LoginController.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/itd/!svn/ver/12172/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/LoginController.m
+END
+PhotoPosition.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/PhotoPosition.m
+END
+ThumbnailGetQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/itd/!svn/ver/11436/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/Classes/ThumbnailGetQueue.h
+END

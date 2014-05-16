@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<design name="largeframe" icon="largeframe/largeframe_icon.jpg"
+	sequence="fixed" style="largeframe" scaleWithItems="0.7"
+	bottomMargin="20" leftMargin="20" rightMargin="20" topMargin="20"
+	type="border-page" width="2100" height="1500" x="0" y="0"
+	numRandomVersions="8" numModes="4"
+	defaultNumItems="5" version="3" mode="1">
+
+  <layoutSequence>
+    <method layout="surround" style="fixedArea" minItemSize="300" maxItemSize="600"/>
+    <method layout="scatter" repelAtCount="3" sparseFactor="16" defaultNumItems="4"
+	    layoutDensityBlur="200" layoutDensityChannel="alpha" layoutDensityOffset="0"
+	    layoutDensityAmp="1.5" minItemSize="150" maxItemSize="200"/>
+  </layoutSequence>
+
+  <versionMenu id="versions">
+    <menuitem label="Surprise Me" imagesrc="surprise.jpg"/>
+    <menuitem label="Vintage" imagesrc="largeframe/Vintage/Vintage_icon.jpg"/>
+    <menuitem label="Music" imagesrc="largeframe/Music/Music_icon.jpg"/>
+    <menuitem label="Red Holly" imagesrc="largeframe/RedHolly/Holly_icon.jpg"/>
+    <menuitem label="Pointsetta" imagesrc="largeframe/Pointsetta/Pointsetta_icon.jpg"/>
+    <menuitem label="SantaNote" imagesrc="largeframe/SantaNote/SantaNote_icon.jpg"/>
+    <menuitem label="Nutcracker" imagesrc="largeframe/Nutcracker/Nutcracker_icon.jpg"/>
+    <menuitem label="Partridge" imagesrc="largeframe/Partridge/Partridge_icon.jpg"/>
+    <menuitem label="XmasParty" imagesrc="largeframe/XmasParty/XmasParty_icon.jpg"/>
+    <menuitem label="Jewish" imagesrc="largeframe/Jewish/Jewish_icon.jpg"/>
+  </versionMenu>
+
+  <frame id="0" probability="0.000001" minCount="1" faceScale="10"
+	 order="1" facecount="20" scale="1" tilt="0" shiftX="0" shiftY="0"
+	 weight="100" padAlpha="1" group="10">
+    <border path="largeframe/Vintage/VintageFrame.xml" type="MagicBorder"/>
+    <border path="largeframe/Music/MusicFrame.xml" type="MagicBorder"/>
+    <border path="largeframe/RedHolly/HollyFrame.xml" type="MagicBorder"/>
+    <border path="largeframe/Pointsetta/PointsettaFrame.xml" type="MagicBorder"/>
+    <border path="largeframe/SantaNote/SantaNoteFrame.xml" type="MagicBorder" scale="1.03"/>
+    <border path="largeframe/Nutcracker/NutcrackerFrame.xml" type="MagicBorder"/>
+    <border path="largeframe/Partridge/PartridgeFrame.xml" type="MagicBorder"/>
+    <border path="largeframe/XmasParty/XmasPartyFrame.xml" type="MagicBorder"/>
+    <border path="largeframe/Jewish/JewishFrame.xml" type="MagicBorder"/>
+  </frame>
+  <frame id="1" probability="0.499999" minCount="0" order="2"
+	 faceScale="10" facecount="-1"	scale="1.05" tilt="12"
+	 shiftX="0" shiftY="0" weight="-1" group="11">
+    <border path="largeframe/Vintage/Vintage_redframe.png"
+	    type="image" aspectRatio="-1"/>
+    <border path="largeframe/Music/goldframe.xml" type="MagicBorder"/>
+    <border path="largeframe/RedHolly/Holly_polaroid.png" type="image"
+	    topMargin="28" bottomMargin="108" leftMargin="28" rightMargin="25"
+	    width="424" height="519" aspectRatio="1.224"/>
+    <border path="largeframe/Pointsetta/polaroid.png" type="image"
+	    cutout="largeframe/Pointsetta/polaroid_cutout.png"
+	    topMargin="28" bottomMargin="108" leftMargin="28" rightMargin="25"
+	    width="424" height="519" aspectRatio="1.224"/>
+    <border path="largeframe/SantaNote/blank.png" type="image"/>
+    <border path="largeframe/Nutcracker/dark_frame.xml" type="MagicBorder"/>
+    <border path="largeframe/Partridge/thin_frame.xml" type="MagicBorder"/>
+    <border path="largeframe/XmasParty/polaroid.png" type="image"
+	    cutout="largeframe/XmasParty/polaroid_cutout.png" 
+	    topMargin="28" bottomMargin="108" leftMargin="28" rightMargin="25"
+	    width="424" height="519" aspectRatio="1.224"/>
+    <border path="largeframe/Jewish/blueframe.xml" type="MagicBorder"/>
+  </frame>
+  <frame id="2" probability="0.5" minCount="0" order="2" faceScale="10" facecount="-1" scale="1.05" tilt="12" shiftX="0" shiftY="0" weight="-1" group="11">
+    <border path="largeframe/Vintage/Vintage_greenframe.png"
+	    type="image" aspectRatio="-1"/>
+    <border path="largeframe/Music/silverframe.xml" type="MagicBorder"/>
+    <border path="largeframe/RedHolly/Holly_polaroid.png" type="image"
+	    topMargin="28" bottomMargin="108" leftMargin="28" rightMargin="25"
+	    width="424" height="519" aspectRatio="1.224"/>
+    <border path="largeframe/Pointsetta/polaroid.png" type="image"
+	    cutout="largeframe/Pointsetta/polaroid_cutout.png"
+	    topMargin="28" bottomMargin="108" leftMargin="28" rightMargin="25"
+	    width="424" height="519" aspectRatio="1.224"/>
+    <border path="largeframe/SantaNote/blank.png" type="image"/>
+    <border path="largeframe/Nutcracker/light_frame.xml" type="MagicBorder"/>
+    <border path="largeframe/Partridge/thin_frame.xml" type="MagicBorder"/>
+    <border path="largeframe/XmasParty/polaroid.png" type="image"
+	    cutout="largeframe/XmasParty/polaroid_cutout.png" 
+	    topMargin="28" bottomMargin="108" leftMargin="28" rightMargin="25"
+	    width="424" height="519" aspectRatio="1.224"/>
+    <border path="largeframe/Jewish/goldframe.xml" type="MagicBorder"/>
+  </frame>
+
+  <!-- accents to layout with photos -->
+  <frame id="3" probability="0" minCount="0" showAtCount="5"
+	 order="3" facecount="-1" scale="1" tilt="12" shiftX="0" shiftY="0" 
+	 weight="-1" group="12" layoutSeq="0">
+    <border path="largeframe/Vintage/Vintage_angel.png" type="image" aspectRatio="1.27"/>
+    <border path="largeframe/Music/silverBellsBow.png" type="image"
+	    aspectRatio="0.77" order="0"/>
+    <border path="largeframe/RedHolly/mistletoe.png" type="image"
+	    aspectRatio="1.32" order="0" scale="1.2"/>
+    <border path="largeframe/Pointsetta/SantaBell.png" type="image" aspectRatio="0.82"/>
+    <border path="largeframe/SantaNote/Santa.png"
+	    type="image" aspectRatio="1.01" scale="1.1"/>
+    <border path="largeframe/Nutcracker/invite.png" type="image" aspectRatio="1.606"/>
+    <border path="largeframe/Partridge/ribbon.png" type="image" aspectRatio="0.808" order="0"/>
+    <border path="largeframe/XmasParty/XmasPartyInvite1.png"
+	    type="image" aspectRatio="1.175"/>
+    <border path="largeframe/Jewish/JewishStar.png" type="image"
+	    aspectRatio="1.115" tilt="0" order="0" scale="1.2"/>
+  </frame>
+  <frame id="4" probability="0" minCount="0" order="3" showAtCount="5"
+	 facecount="-1" scale="1" tilt="12" shiftX="0" shiftY="0"
+	 weight="-1" group="12" layoutSeq="0"> 
+    <border path="largeframe/Vintage/Vintage_doll.png" type="image" aspectRatio="1.27"/>
+    <border path="largeframe/Music/carolers.png" type="image" aspectRatio="0.753"/>
+    <border path="largeframe/RedHolly/cranberry.png" type="image" aspectRatio="1.28"/>
+    <border path="largeframe/Pointsetta/cradle.png" type="image" aspectRatio="1.204"/>
+    <border path="largeframe/SantaNote/Snowman.png"
+	    type="image" aspectRatio="1.33" scale="1.1"/>
+    <border path="largeframe/Nutcracker/program.png" type="image" aspectRatio="1.57"/>
+    <border path="largeframe/Partridge/pear_tree.png" type="image" aspectRatio="1.5"/>
+    <border path="largeframe/XmasParty/XmasPartyInvite2.png" type="image" aspectRatio="0.756"/>
+    <border path="largeframe/Jewish/peace1.png" type="image"
+	    aspectRatio="0.722" scale="0.95"/>
+  </frame>
+  <frame id="5" probability="0" minCount="0" order="3" showAtCount="5"
+	 facecount="-1" scale="1" tilt="12" shiftX="0" shiftY="0"
+	 weight="-1" group="12" layoutSeq="0"> 
+    <border path="largeframe/Vintage/Vintage_Santa.png" type="image" aspectRatio="1.27"/>
+    <border path="largeframe/Music/goldBellsBow.png" type="image"
+	    aspectRatio="0.77" order="0"/>
+    <border/>
+    <border/>
+    <border path="largeframe/SantaNote/SantaNote.png"
+	    type="image" aspectRatio="1.175" scale="1.1"/>
+    <border path="largeframe/Nutcracker/ticket.png" type="image" aspectRatio="0.477"/>
+    <border/>
+    <border path="largeframe/XmasParty/CarolingInvite.png" type="image" aspectRatio="0.8288"/>
+    <border path="largeframe/Jewish/peace2.png" type="image"
+	    aspectRatio="0.722" scale="0.95"/>
+  </frame>
+  <frame id="6" probability="0" minCount="0" order="3" showAtCount="5"
+	 facecount="-1" scale="1" tilt="12" shiftX="0" shiftY="0"
+	 weight="-1" group="12" layoutSeq="0"> 
+    <border path="largeframe/Vintage/Vintage_tree.png" type="image" aspectRatio="1.27"/>
+    <border/>
+  </frame>
+
+  <!-- accents to fill in gaps -->
+  <!--frame id="7" probability="0" minCount="0" showAtCount="100"
+	 order="3" facecount="-1" scale="2" tilt="12" shiftX="0" shiftY="0" 
+	 weight="1" group="12" layoutSeq="1">
+    <border/>
+    <border path="largeframe/Music/SilverBells.png" type="image"
+	    aspectRatio="0.6875" order="0" scale="1.7"/>
+    <border path="largeframe/RedHolly/mistletoe.png" type="image"
+	    aspectRatio="1.32" order="0" layoutSeq="1" scale="2.2"/>
+    <border/>
+    <border/>
+    <border/>
+    <border path="largeframe/Partridge/ribbon.png" type="image" aspectRatio="0.808" order="0"/>
+    <border/>
+    <border path="largeframe/Jewish/JewishStar.png" type="image"
+	    aspectRatio="1.115" tilt="0" order="0" layoutSeq="1" scale="2.2"/>
+  </frame>
+  <frame id="8" probability="0" minCount="0" order="3" showAtCount="100"
+	 facecount="-1" scale="2" tilt="12" shiftX="0" shiftY="0"
+	 weight="1" group="12" layoutSeq="1"> 
+    <border/>
+    <border path="largeframe/Music/GoldBells.png" type="image"
+	    aspectRatio="1.65" order="0" layoutSeq="1" scale="1.75"/>
+    <border path="largeframe/RedHolly/sleigh.png" type="image"
+	    aspectRatio="1.29" scale="2.2"/>
+    <border/>
+  </frame-->
+
+  <!-- background texture. extend beyond page a bit to allow for overscan-->
+  <Element position="area" type="repeating" style="texture"
+	   width="2520" height="1800" x="-210" y="-150"
+	   alignment="both" layoutDensity="-1" group="0">
+    <image source="largeframe/Vintage/Vintage_paper.png" width="532" height="776"/>
+    <image source="largeframe/Music/Music_paper.png" width="453" height="453"/>
+    <image source="largeframe/RedHolly/Holly_paper.png" width="179" height="179"/>
+    <image source="largeframe/Pointsetta/Pointsetta_paper.png" width="179" height="179"/>
+    <image source="largeframe/SantaNote/SantaNote_paper.png" width="157" height="141"/>
+    <image source="largeframe/Nutcracker/Nutcracker_paper.png" width="956" height="576"/>
+    <image source="largeframe/Partridge/Partridge_paper.png" width="239" height="371"/>
+    <image source="largeframe/XmasParty/XmasParty_paper.png" width="384" height="253"/>
+    <image source="largeframe/Jewish/Jewish_paper.png" width="367" height="417"/>
+  </Element>
+
+  <Element position="top" type="foreground" layoutDensity="0"
+	   width="1085" height="753" x="800" y="30" group="1">
+    <image/>
+    <image source="largeframe/Music/MusicSheet1.png" width="1085" height="753"/>
+    <image/>
+  </Element>
+  <Element position="bottom" type="foreground" layoutDensity="0"
+	   width="1088" height="715" x="200" y="750" group="1">
+    <image/>
+    <image source="largeframe/Music/MusicSheet2.png" width="1088" height="715"/>
+    <image/>
+  </Element>
+
+
+   <!-- text mode 1: right side text-->
+   <!-- text background, mode 1-->
+   <Element group="0" mode="1" width="810" height="1800" x="1500" y="-150" 
+	    layoutDensity="-1" position="right" type="repeating"
+	    style="texture">
+     <image source="largeframe/Vintage/Vintage_text.png" width="588" height="776"/>
+     <image source="largeframe/Music/Music_text.png" width="16" height="16"/>
+     <image source="largeframe/RedHolly/Holly_text.png" width="18" height="18"/>
+     <image source="largeframe/Pointsetta/Pointsetta_text.png" width="18" height="18"/>
+     <image source="largeframe/SantaNote/SantaNote_text.png" width="166" height="151"/>
+     <image source="largeframe/Nutcracker/Nutcracker_text4.png" width="407" height="304"/>
+     <image source="largeframe/Partridge/Partridge_text.png" width="167" height="304"/>
+     <image source="largeframe/XmasParty/XmasParty_text.png" width="24" height="24"/>
+     <image source="largeframe/Jewish/JewishCard_text.png" width="18" height="18"/>
+   </Element>
+
+   <!-- text decorations, mode 1-->
+   <Element group="0" mode="1" width="400" height="1500" x="1600" y="0" 
+	    layoutDensity="-1" position="right" type="repeating"
+	    style="continuousFit" alignment="both">
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="largeframe/Partridge/Partridge_text1.png" width="131" height="500"/>
+     <image/>
+   </Element>
+
+   <Element group="0" mode="1" width="600" height="1500" x="1500" y="0" 
+	    layoutDensity="-1" position="right" type="repeating"
+	    style="continuousFit" alignment="vertical">
+     <image/>
+     <image source="largeframe/Music/Music_text1.png" width="600" height="303"/>
+     <image/>
+   </Element>
+
+   <Element group="0" mode="1" width="600" height="290" x="1500" y="0" 
+	    layoutDensity="-1" position="right" type="foreground">
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="largeframe/XmasParty/XmasParty_text1_top.png" width="600" height="290"/>
+     <image/>
+   </Element>
+
+   <Element group="0" mode="1" width="600" height="290" x="1500" y="1210" 
+	    layoutDensity="-1" position="right" type="foreground">
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="largeframe/XmasParty/XmasParty_text1_bottom.png" width="600" height="290"/>
+     <image/>
+   </Element>
+
+   <!-- text divider, mode 1-->
+   <Element group="0" mode="1" width="29" height="1800" x="1485" y="-150" 
+	    layoutDensity="-1" position="right" marginpusher="left"
+	    type="repeating" style="looseFit" alignment="vertical" >
+     <image source="largeframe/Vintage/Vintage_divider1.png" width="30" height="60"/>
+     <image source="largeframe/Music/Music_divider1.png" width="30" height="60"/>
+     <image source="largeframe/RedHolly/Holly_divider1.png" width="29" height="576"/>
+     <image source="largeframe/Pointsetta/Pointsetta_divider1.png" width="30" height="18"/>
+     <image source="largeframe/SantaNote/SantaNote_divider1.png" width="30" height="151"/>
+     <image source="largeframe/Nutcracker/Nutcracker_divider1.png" width="30" height="151"/>
+     <image source="largeframe/Partridge/Partridge_divider1.png" width="30" height="151"/>
+     <image/>
+     <image source="largeframe/Jewish/JewishCard_divider1.png" width="30" height="18"/>
+   </Element>
+
+   <!-- text blocks, mode 1 -->
+   <text group="0" mode="1" id="text2" position="right" type="foreground"
+	 fontSize="64" fontWeight="normal" fontStyle="italic" fontFamily="sans-serif" 
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="All our best&#10;The HP Family" width="500" height="600" x="1550" y="800">
+     <textArea fontColor="0xEBCD85"/>
+     <textArea fontColor="0x332812"/>
+     <textArea fontColor="0xEDCD84"/>
+     <textArea fontColor="0x342714"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0x8A0808"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0x342812"/>
+   </text>
+   <text group="0" mode="1" id="text1" position="right" type="foreground" 
+	 fontSize="108" fontWeight="normal" fontStyle="normal" fontFamily="sans-serif"
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="Happy Holidays" width="500" height="600" x="1550"
+	 y="100">
+     <textArea fontColor="0xEBCD85"/>
+     <textArea fontColor="0x332812"/>
+     <textArea fontColor="0xEDCD84"/>
+     <textArea fontColor="0x342714"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0x8A0808"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0x342812"/>
+   </text>
+
+
+   <!-- text mode 2: left side text-->
+   <!-- text background, mode 2-->
+   <Element group="0" mode="2" width="810" height="1800" x="-210" y="-150" 
+	    layoutDensity="-1" position="left" type="repeating"
+	    style="texture">
+     <image source="largeframe/Vintage/Vintage_text.png" width="588" height="776"/>
+     <image source="largeframe/Music/Music_text.png" width="16" height="16"/>
+     <image source="largeframe/RedHolly/Holly_text.png" width="18" height="18"/>
+     <image source="largeframe/Pointsetta/Pointsetta_text.png" width="18" height="18"/>
+     <image source="largeframe/SantaNote/SantaNote_text.png" width="166" height="151"/>
+     <image source="largeframe/Nutcracker/Nutcracker_text4.png" width="407" height="304"/>
+     <image source="largeframe/Partridge/Partridge_text.png" width="167" height="304"/>
+     <image source="largeframe/XmasParty/XmasParty_text.png" width="24" height="24"/>
+     <image source="largeframe/Jewish/JewishCard_text.png" width="18" height="18"/>
+   </Element>
+
+   <!-- text decorations, mode 2-->
+   <Element group="0" mode="2" width="400" height="1500" x="100" y="0" 
+	    layoutDensity="-1" position="left" type="repeating"
+	    style="continuousFit" alignment="both">
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="largeframe/Partridge/Partridge_text1.png" width="131" height="500"/>
+     <image/>
+   </Element>
+
+   <Element group="0" mode="2" width="600" height="1500" x="0" y="0"
+	    layoutDensity="-1" position="left" type="repeating"
+	    style="continuousFit" alignment="vertical">
+     <image/>
+     <image source="largeframe/Music/Music_text1.png" width="600" height="303"/>
+     <image/>
+   </Element>
+
+   <Element group="0" mode="2" width="600" height="290" x="0" y="0" 
+	    layoutDensity="-1" position="left" type="foreground">
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="largeframe/XmasParty/XmasParty_text1_top.png" width="600" height="290"/>
+     <image/>
+   </Element>
+
+   <Element group="0" mode="2" width="600" height="290" x="0" y="1210" 
+	    layoutDensity="-1" position="left" type="foreground">
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="largeframe/XmasParty/XmasParty_text1_bottom.png" width="600" height="290"/>
+     <image/>
+   </Element>
+
+   <!-- text divider, mode 2-->
+   <Element group="0" mode="2" width="29" height="1800" x="585" y="-150" 
+	    layoutDensity="-1" position="left" marginpusher="right"
+	    type="repeating" style="looseFit" alignment="vertical" >
+     <image source="largeframe/Vintage/Vintage_divider1.png" width="30" height="60"/>
+     <image source="largeframe/Music/Music_divider1.png" width="30" height="60"/>
+     <image source="largeframe/RedHolly/Holly_divider1.png" width="29" height="576"/>
+     <image source="largeframe/Pointsetta/Pointsetta_divider1.png" width="30" height="18"/>
+     <image source="largeframe/SantaNote/SantaNote_divider1.png" width="30" height="151"/>
+     <image source="largeframe/Nutcracker/Nutcracker_divider1.png" width="30" height="151"/>
+     <image source="largeframe/Partridge/Partridge_divider1.png" width="30" height="151"/>
+     <image/>
+     <image source="largeframe/Jewish/JewishCard_divider1.png" width="30" height="18"/>
+   </Element>
+
+   <!-- text blocks, mode 2 -->
+   <text group="0" mode="2" id="text2" position="left" type="foreground"
+	 fontSize="64" fontWeight="normal" fontStyle="italic" fontFamily="sans-serif" 
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="All our best&#10;The HP Family" width="500" height="600" x="50" y="800">
+     <textArea fontColor="0xEBCD85"/>
+     <textArea fontColor="0x332812"/>
+     <textArea fontColor="0xEDCD84"/>
+     <textArea fontColor="0x342714"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0x8A0808"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0x342812"/>
+   </text>
+   <text group="0" mode="2" id="text1" position="left" type="foreground" 
+	 fontSize="108" fontWeight="normal" fontStyle="normal" fontFamily="sans-serif"
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="Happy Holidays" width="500" height="600" x="50"
+	 y="100">
+     <textArea fontColor="0xEBCD85"/>
+     <textArea fontColor="0x332812"/>
+     <textArea fontColor="0xEDCD84"/>
+     <textArea fontColor="0x342714"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0x8A0808"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0x342812"/>
+   </text>
+
+
+   <!-- text mode 3: top text-->
+   <!-- text background, mode 3-->
+   <Element group="0" mode="3" width="2520" height="450" x="-210" y="-150" 
+	    layoutDensity="-1" position="top" type="repeating"
+	    style="texture">
+     <image source="largeframe/Vintage/Vintage_text.png" width="588" height="776"/>
+     <image source="largeframe/Music/Music_text.png" width="16" height="16"/>
+     <image source="largeframe/RedHolly/Holly_text.png" width="18" height="18"/>
+     <image source="largeframe/Pointsetta/Pointsetta_text.png" width="18" height="18"/>
+     <image source="largeframe/SantaNote/SantaNote_text.png" width="166" height="151"/>
+     <image source="largeframe/Nutcracker/Nutcracker_text4.png" width="407" height="304"/>
+     <image source="largeframe/Partridge/Partridge_text.png" width="167" height="304"/>
+     <image source="largeframe/XmasParty/XmasParty_text.png" width="24" height="24"/>
+     <image source="largeframe/Jewish/JewishCard_text.png" width="18" height="18"/>
+   </Element>
+
+   <!-- text decorations, mode 3-->
+   <Element group="0" mode="3" width="1900" height="300" x="100" y="0" 
+	    layoutDensity="-1" position="top" type="repeating"
+	    style="perfectFit" alignment="both">
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="largeframe/Partridge/Partridge_text3.png" width="537" height="274"/>
+     <image/>
+   </Element>
+
+   <Element group="0" mode="3" width="1900" height="300" x="100" y="0" 
+	    layoutDensity="-1" position="top" type="repeating"
+	    style="continuousFit" alignment="both">
+     <image/>
+     <image source="largeframe/Music/Music_text1.png" width="600" height="303"/>
+     <image/>
+   </Element>
+
+   <Element group="0" mode="3" width="279" height="300" x="0" y="0" 
+	    layoutDensity="-1" position="top" type="foreground">
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="largeframe/XmasParty/XmasParty_text2_left.png" width="279" height="300"/>
+     <image/>
+   </Element>
+
+   <Element group="0" mode="3" width="290" height="300" x="1810" y="0" 
+	    layoutDensity="-1" position="top" type="foreground">
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="largeframe/XmasParty/XmasParty_text2_right.png" width="290" height="300"/>
+     <image/>
+   </Element>
+
+   <!-- text divider, mode 3-->
+   <Element group="0" mode="3" width="2520" height="29" x="-210" y="285" 
+	    layoutDensity="-1" position="top" marginpusher="bottom"
+	    type="repeating" style="looseFit" alignment="horizontal" >
+     <image source="largeframe/Vintage/Vintage_divider2.png" width="60" height="30"/>
+     <image source="largeframe/Music/Music_divider2.png" width="60" height="30"/>
+     <image source="largeframe/RedHolly/Holly_divider2.png" width="695" height="29"/>
+     <image source="largeframe/Pointsetta/Pointsetta_divider2.png" width="18" height="30"/>
+     <image source="largeframe/SantaNote/SantaNote_divider2.png" width="150" height="30"/>
+     <image source="largeframe/Nutcracker/Nutcracker_divider2.png" width="150" height="30"/>
+     <image source="largeframe/Partridge/Partridge_divider2.png" width="151" height="30"/>
+     <image/>
+     <image source="largeframe/Jewish/JewishCard_divider2.png" width="18" height="30"/>
+   </Element>
+
+   <!-- text blocks, mode 3 -->
+   <text group="0" mode="3" id="text2" position="top" type="foreground"
+	 fontSize="64" fontWeight="normal" fontStyle="italic" fontFamily="sans-serif" 
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="All our best&#10;The HP Family" width="900" height="240" x="1150" y="40">
+     <textArea fontColor="0xEBCD85"/>
+     <textArea fontColor="0x332812"/>
+     <textArea fontColor="0xEDCD84"/>
+     <textArea fontColor="0x342714"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0x8A0808"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0x342812"/>
+   </text>
+   <text group="0" mode="3" id="text1" position="top" type="foreground" 
+	 fontSize="108" fontWeight="normal" fontStyle="normal" fontFamily="sans-serif"
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="Happy Holidays" width="900" height="240" x="50"
+	 y="40">
+     <textArea fontColor="0xEBCD85"/>
+     <textArea fontColor="0x332812"/>
+     <textArea fontColor="0xEDCD84"/>
+     <textArea fontColor="0x342714"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0x8A0808"/>
+     <textArea fontColor="0xB91616"/>
+     <textArea fontColor="0x342812"/>
+   </text>
+
+</design>

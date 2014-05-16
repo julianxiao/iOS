@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/itd/!svn/ver/11508/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/ZipArchive/minizip
+END
+ioapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/11508/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/ZipArchive/minizip/ioapi.c
+END
+zip.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/itd/!svn/ver/11508/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/ZipArchive/minizip/zip.c
+END
+unzip.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/11508/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/ZipArchive/minizip/unzip.c
+END
+crypt.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/11508/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/ZipArchive/minizip/crypt.h
+END
+ioapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/11508/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/ZipArchive/minizip/ioapi.h
+END
+mztools.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/itd/!svn/ver/11508/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/ZipArchive/minizip/mztools.c
+END
+zip.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/itd/!svn/ver/11508/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/ZipArchive/minizip/zip.h
+END
+unzip.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/itd/!svn/ver/11508/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/ZipArchive/minizip/unzip.h
+END
+mztools.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/itd/!svn/ver/11508/MagicBookWebSite/AutoPhotoBook/trunk/AutoPhotoBook_IPhone/ZipArchive/minizip/mztools.h
+END

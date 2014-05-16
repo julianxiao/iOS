@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<design name="joy" icon="joy/joy_icon.jpg" sequence="fixed" 
+	layout="bric" repelAtCount="0" style="fixedArea"
+	bottomMargin="30" leftMargin="30" rightMargin="30" topMargin="30"
+	type="border-page" width="2100" height="1500" x="0" y="0"
+	layoutDensityBlur="0" layoutDensityChannel="alpha" 
+	layoutDensityOffset="0" layoutDensityAmp="1" defaultNumItems="5"
+	minItemSize="300" maxItemSize="600" numRandomVersions="6" numModes="7" itemGap="30">
+
+  <versionMenu id="versions">
+    <menuitem label="Surprise Me" imagesrc="surprise.jpg"/>
+    <menuitem label="Bells" imagesrc="joy/Bells/Bells_icon.jpg"/>
+    <menuitem label="Bows" imagesrc="joy/Bows/Bows_icon.jpg"/>
+    <menuitem label="Gingerbread" imagesrc="joy/Gingerbread/Gingerbread_icon.jpg"/>
+    <menuitem label="Holly" imagesrc="joy/Holly/Holly_icon.jpg"/>
+    <menuitem label="LiteBlue" imagesrc="joy/LiteBlue/LiteBlue_icon.jpg"/>
+    <menuitem label="Santa" imagesrc="joy/Santa/Santa_icon.jpg"/>
+    <menuitem label="Scrollwork" imagesrc="joy/Scrollwork/Scrollwork_icon.jpg"/>
+    <menuitem label="Stocking" imagesrc="joy/Stocking/Stocking_icon.jpg"/>
+    <menuitem label="Tree" imagesrc="joy/Tree/Tree_icon.jpg"/>
+  </versionMenu>
+
+  <frame id="0" probability="1" minCount="0" order="0" faceScale="3"
+	 facecount="-1" scale="1" tilt="0" shiftX="0" shiftY="0" weight="-1">
+    <border path="joy/blank.png" type="image" aspectRatio="-1"/>
+  </frame>
+
+  <!-- accent pieces for text -->
+  <frame id="1" probability="0" minCount="0" showAtCount="100"
+      order="2" facecount="-1" scale="1" tilt="0" shiftX="0" shiftY="0" 
+      weight="-0.2" mode="0" group="11">
+    <border path="joy/Bells/frame_burst1.xml" type="MagicBorder" aspectRatio="1"/>
+    <border path="joy/Bows/frame_snowflakesStripes.xml" type="MagicBorder" aspectRatio="3.932"/>
+    <border path="joy/Gingerbread/vertBursts.png" type="image" aspectRatio="1.144"/>
+    <border path="joy/Holly/vertLattice.png" type="image" aspectRatio="2.611"/>
+    <border path="joy/LiteBlue/starCurls.png" type="image" aspectRatio="0.708"/>
+    <border path="joy/Santa/vertDoily3.png" type="image" aspectRatio="2.597"/>
+    <border path="joy/Scrollwork/vertKnotScroll.png" type="image" aspectRatio="3.37"/>
+    <border path="joy/Stocking/largeStar.png" type="image" aspectRatio="0.984"/>
+    <border path="joy/Tree/largeTree.png" type="image" aspectRatio="1.382"/>
+  </frame>
+  <frame id="2" probability="0" minCount="0" showAtCount="100"
+      order="2" facecount="-1" scale="1" tilt="0" shiftX="0" shiftY="0" 
+      weight="-0.2" mode="0" group="12">
+    <border path="joy/Bells/pairOfBells.png" type="image" aspectRatio="0.588"/>
+    <border path="joy/Bows/frame_stackGifts.xml" type="MagicBorder" aspectRatio="1.0553"/>
+    <border path="joy/Gingerbread/blackBursts.png" type="image" aspectRatio="0.2871"/>
+    <border path="joy/Holly/HollyLeaf.png" type="image" aspectRatio="0.97"/>
+    <border path="joy/LiteBlue/starStripes.png" type="image" aspectRatio="0.287"/>
+    <border path="joy/Santa/reindeer3.png" type="image" aspectRatio="0.503"/>
+    <border path="joy/Scrollwork/largeScroll.png" type="image" aspectRatio="0.504"/>
+    <border path="joy/Stocking/stockingRow.png" type="image" aspectRatio="0.3"/>
+    <border path="joy/Tree/starRow.png" type="image" aspectRatio="0.278"/>
+  </frame>
+
+  <frame id="3" probability="0" minCount="0" showAtCount="100"
+      order="2" facecount="-1" scale="1" tilt="0" shiftX="0" shiftY="0" 
+      weight="-0.2" mode="1" group="13">
+    <border path="joy/Bells/frame_burst1.xml" type="MagicBorder" aspectRatio="1"/>
+    <border path="joy/Bows/frame_twoGifts.xml" type="MagicBorder" aspectRatio="0.5"/>
+    <border path="joy/Gingerbread/frame_blackGinger.xml" type="MagicBorder" aspectRatio="1.165"/>
+    <border path="joy/Holly/frame_LeavesLattice.xml" type="MagicBorder" aspectRatio="0.385"/>
+    <border path="joy/LiteBlue/frame_vertStars.xml" type="MagicBorder" aspectRatio="4.82"/>
+    <border path="joy/Santa/frame_largeSanta.xml" type="MagicBorder" aspectRatio="1.117"/>
+    <border path="joy/Scrollwork/cornerKnotScroll.xml" type="MagicBorder" aspectRatio="1"/>
+    <border path="joy/Stocking/frame_vertStar.xml" type="MagicBorder" aspectRatio="3.33"/>
+    <border path="joy/Tree/frame_largeStar.xml" type="MagicBorder" aspectRatio="0.953"/>
+  </frame>
+  <frame id="5" probability="0" minCount="0" showAtCount="100"
+      order="2" facecount="-1" scale="1" tilt="0" shiftX="0" shiftY="0" 
+      weight="-0.2" mode="2" group="14">
+    <border path="joy/Bells/frame_burst3.xml" type="MagicBorder" aspectRatio="1"/>
+    <border path="joy/Bows/frame_giftsRow.xml" type="MagicBorder" aspectRatio="0.16"/>
+    <border path="joy/Gingerbread/frame_largeBurst.xml" type="MagicBorder" aspectRatio="1"/>
+    <border path="joy/Holly/frame_wreathLattice.xml" type="MagicBorder" aspectRatio="1.1175"/>
+    <border path="joy/LiteBlue/frame_whiteCurl.xml" type="MagicBorder" aspectRatio="1"/>
+    <border path="joy/Santa/frame_reindeer1.xml" type="MagicBorder" aspectRatio="1.034"/>
+    <border path="joy/Scrollwork/rodEdgeScroll.xml" type="MagicBorder" aspectRatio="1"/>
+    <border path="joy/Stocking/frame_starCream.xml" type="MagicBorder" aspectRatio="1"/>
+    <border path="joy/Tree/frame_starWreath.xml" type="MagicBorder" aspectRatio="0.979"/>
+  </frame>
+  <frame id="6" probability="0" minCount="0" showAtCount="100"
+      order="2" facecount="-1" scale="1" tilt="0" shiftX="0" shiftY="0" 
+      weight="-0.2" mode="3" group="15">
+    <border path="joy/Bells/frame_bellcolumn.xml" type="MagicBorder" aspectRatio="4.7324"/>
+    <border path="joy/Bows/frame_snowflakeBox.xml" type="MagicBorder" aspectRatio="1.1105"/>
+    <border path="joy/Gingerbread/frame_largeGinger.xml" type="MagicBorder" aspectRatio="1.26"/>
+    <border path="joy/Holly/frame_LeafScrollSquare.xml" type="MagicBorder" aspectRatio="1.1175"/>
+    <border path="joy/LiteBlue/frame_pointyStar.xml" type="MagicBorder" aspectRatio="1"/>
+    <border path="joy/Santa/frame_largeDoily.xml" type="MagicBorder"
+      aspectRatio="0.97"/>
+    <border path="joy/Scrollwork/vertScroll2.xml" type="MagicBorder" aspectRatio="2.61"/>
+    <border path="joy/Stocking/frame_starLime.xml" type="MagicBorder" aspectRatio="1.2"/>
+    <border path="joy/Tree/frame_starStack.xml" type="MagicBorder" aspectRatio="1.232"/>
+  </frame>
+
+  <!-- background texture. extend beyond page a bit to allow for overscan-->
+  <Element position="area" type="repeating" style="texture"
+	   width="2520" height="1800" x="-210" y="-150"
+	   alignment="both" layoutDensity="-1" group="0">
+    <image source="joy/Bells/Bells_paper.png" width="8" height="8"/>
+    <image source="joy/Bows/Bows_paper.png" width="9" height="7"/>
+    <image source="joy/Gingerbread/Gingerbread_paper.png" width="14" height="14"/>
+    <image source="joy/Holly/Holly_paper.png" width="8" height="8"/>
+    <image source="joy/LiteBlue/LiteBlue_paper.png" width="10" height="8"/>
+    <image source="joy/Santa/Santa_paper.png" width="8" height="8"/>
+    <image source="joy/Scrollwork/Scrollwork_paper.png" width="8" height="8"/>
+    <image source="joy/Stocking/Stocking_paper.png" width="8" height="8"/>
+    <image source="joy/Tree/Tree_paper.png" width="8" height="8"/>
+  </Element>
+
+  <!-- text blocks, mode 1-->
+  <text id="text1" fontSize="72" fontWeight="normal"
+	fontStyle="italic" fontFamily="sans-serif"
+	width="0" height="0" textAlign="center"	maxAspect="1.5" minAspect="0.3"
+	text="Our family sends our best wishes to yours!" 
+	type="fluid" mode="1" group="21">
+     <textArea fontColor="0x85640A" border="joy/Bells/textframe1.xml"/>
+     <textArea fontColor="0x630C2F" border="joy/Bows/frame_redStripe.xml"/>
+     <textArea fontColor="0xffffff" border="joy/Gingerbread/frame_bwGingerSquare.xml"/>
+     <textArea fontColor="0xA02C59" border="joy/Holly/frame_LeafScroll.xml"/>
+     <textArea fontColor="0xAECDD0" border="joy/LiteBlue/frame_starBlocks.xml"/>
+     <textArea fontColor="0xffffff" border="joy/Santa/frame_horizDoily2.xml"/>
+     <textArea fontColor="0xFBF7DA" border="joy/Scrollwork/scrollRed.xml"/>
+     <textArea fontColor="0x000000" border="joy/Stocking/frame_scrollPink.xml"/>
+     <textArea fontColor="0x4A994A" border="joy/Tree/frame_topTrees.xml"/>
+  </text>
+
+  <!-- text blocks, mode 2-->  
+  <text id="text2" fontSize="72" fontWeight="normal" fontStyle="italic"
+	fontFamily="sans-serif" 
+	maxAspect="1.8" minAspect="0.2" width="0" height="0" 
+	text="Our family sends our best wishes to yours!" 
+	textAlign="center" type="fluid" mode="2" group="21">
+     <textArea fontColor="0x85640A" border="joy/Bells/textframe2.xml"/>
+     <textArea fontColor="0xFDFFF7" border="joy/Bows/frame_snowflakeBorder.xml"/>
+     <textArea fontColor="0xffffff" border="joy/Gingerbread/frame_blackGingerSquare.xml"/>
+     <textArea fontColor="0xF0DC95" border="joy/Holly/frame_LeafText.xml"/>
+     <textArea fontColor="0xAECDD0" border="joy/LiteBlue/frame_cornerCurls.xml"/>
+     <textArea fontColor="0xB73B3B" border="joy/Santa/frame_leftSantaBlack.xml"/>
+     <textArea fontColor="0x630D30" border="joy/Scrollwork/horizKnotScroll.xml"/>
+     <textArea fontColor="0x000000" border="joy/Stocking/frame_scrollCream.xml"/>
+     <textArea fontColor="0xFBF7DA" border="joy/Tree/frame_treeBorder2.xml"/>
+  </text>
+
+  <!-- text blocks, mode 3-->  
+  <text id="text3" fontSize="72" fontWeight="normal" fontStyle="italic"
+	fontFamily="sans-serif" 
+	maxAspect="1.8" minAspect="0.2" width="0" height="0" 
+	text="Our family sends our best wishes to yours!" 
+	textAlign="center" type="fluid" mode="3" group="21">
+     <textArea fontColor="0xFFE89D" border="joy/Bells/textframe3.xml"/>
+     <textArea fontColor="0x630C2F" border="joy/Bows/frame_stripes.xml"/>
+     <textArea fontColor="0xffffff" border="joy/Gingerbread/frame_blackGingerText.xml"/>
+     <textArea fontColor="0xA02C59" border="joy/Holly/frame_goldLeaves.xml"/>
+     <textArea fontColor="0xAECDD0" border="joy/LiteBlue/frame_horizStarsWhite.xml"/>
+     <textArea fontColor="0xB73B3B" border="joy/Santa/frame_leftReindeer.xml"/>
+     <textArea fontColor="0x630D30" border="joy/Scrollwork/rodEnds.xml"/>
+     <textArea fontColor="0x000000" border="joy/Stocking/frame_pinkScrollLime.xml"/>
+     <textArea fontColor="0xFBF7DA" border="joy/Tree/frame_treeStars.xml"/>
+  </text>
+
+  <!-- text blocks, mode 4-->  
+  <text id="text4" fontSize="72" fontWeight="normal" fontStyle="italic"
+	fontFamily="sans-serif" 
+	maxAspect="1.8" minAspect="0.2" width="0" height="0" 
+	text="Our family sends our best wishes to yours!" 
+	textAlign="center" type="fluid" mode="4" group="21">
+     <textArea fontColor="0xFFE89D" border="joy/Bells/textframe11.xml"/>
+     <textArea fontColor="0x630C2F" border="joy/Bows/frame_limeStripes.xml"/>
+     <textArea fontColor="0xffffff" border="joy/Gingerbread/frame_fourBursts.xml"/>
+     <textArea fontColor="0xF0DC95" border="joy/Holly/frame_leavesBlue.xml"/>
+     <textArea fontColor="0xffffff" border="joy/LiteBlue/frame_cornerStars.xml"/>
+     <textArea fontColor="0xffffff" border="joy/Santa/frame_horizDoily1.xml"/>
+     <textArea fontColor="0x630D30" border="joy/Scrollwork/smallScrollSquare.xml"/>
+     <textArea fontColor="0xF8ACC8" border="joy/Stocking/frame_scrollBlack.xml"/>
+     <textArea fontColor="0xFBF7DA" border="joy/Tree/frame_starTowers.xml"/>
+  </text>
+  <text id="text5" fontSize="108" fontWeight="normal"
+	fontStyle="normal" fontFamily="sans-serif" 
+	width="0" height="0" text="Happy Holidays" textAlign="center"
+	maxAspect="1.2" minAspect="0.15"	type="fluid" mode="4" group="21">
+     <textArea fontColor="0x85640A" border="joy/Bells/textframe12.xml"/>
+     <textArea fontColor="0xFDFFF7" border="joy/Bows/frame_snowflakeBorder2.xml"/>
+     <textArea fontColor="0xffffff" border="joy/Gingerbread/frame_twoGingers.xml"/>
+     <textArea fontColor="0xA02C59" border="joy/Holly/frame_goldWreath.xml"/>
+     <textArea fontColor="0xAECDD0" border="joy/LiteBlue/frame_horizStarsCurls.xml"/>
+     <textArea fontColor="0xB73B3B" border="joy/Santa/frame_redLines.xml"/>
+     <textArea fontColor="0x630D30" border="joy/Scrollwork/leftRodEdge.xml"/>
+     <textArea fontColor="0x000000" border="joy/Stocking/frame_stockingCream.xml"/>
+     <textArea fontColor="0x4A994A" border="joy/Tree/frame_tree2.xml"/>
+  </text>
+
+  <!-- text blocks, mode 5-->  
+  <text id="text6" fontSize="72" fontWeight="normal" fontStyle="italic"
+	fontFamily="sans-serif" 
+	maxAspect="1.8" minAspect="0.2" width="0" height="0" 
+	text="Our family sends our best wishes to yours!" 
+	textAlign="center" type="fluid" mode="5" group="21">
+     <textArea fontColor="0xFFE89D" border="joy/Bells/textframe21.xml"/>
+     <textArea fontColor="0xFDFFF7" border="joy/Bows/frame_longRed.xml"/>
+     <textArea fontColor="0x050505" border="joy/Gingerbread/frame_whiteCurls.xml"/>
+     <textArea fontColor="0xA02C59" border="joy/Holly/frame_goldHolly.xml"/>
+     <textArea fontColor="0xffffff" border="joy/LiteBlue/frame_vertCurls.xml"/>
+     <textArea fontColor="0xB73B3B" border="joy/Santa/frame_cornerDoily.xml"/>
+     <textArea fontColor="0x630D30" border="joy/Scrollwork/rodEdge.xml"/>
+     <textArea fontColor="0xF8ACC8" border="joy/Stocking/frame_cornerStar.xml"/>
+     <textArea fontColor="0x4A994A" border="joy/Tree/frame_cornerStarTree.xml"/>
+  </text>
+  <text id="text7" fontSize="108" fontWeightS="normal"
+	fontStyle="normal" fontFamily="sans-serif" 
+	width="0" height="0" text="Happy Holidays" textAlign="center"
+	maxAspect="1.2" minAspect="0.15" type="fluid" mode="5" group="21">
+     <textArea fontColor="0x85640A" border="joy/Bells/textframe22.xml"/>
+     <textArea fontColor="0xFDFFF7" border="joy/Bows/frame_giftsSquare.xml"/>
+     <textArea fontColor="0xffffff" border="joy/Gingerbread/frame_blackGinger1.xml"/>
+     <textArea fontColor="0xF0DC95" border="joy/Holly/frame_scrollLeaf.xml"/>
+     <textArea fontColor="0xAECDD0" border="joy/LiteBlue/frame_horizCurls.xml"/>
+     <textArea fontColor="0xffffff" border="joy/Santa/frame_leftSantaRed.xml"/>
+     <textArea fontColor="0x630D30" border="joy/Scrollwork/horizScroll2.xml"/>
+     <textArea fontColor="0x000000" border="joy/Stocking/frame_leftStar.xml"/>
+     <textArea fontColor="0x4A994A" border="joy/Tree/frame_starSet.xml"/>
+  </text>
+
+  <!-- text blocks, mode 6-->  
+  <text id="text6" fontSize="72" fontWeight="normal" fontStyle="italic"
+	fontFamily="sans-serif" 
+	maxAspect="1.8" minAspect="0.2" width="0" height="0" 
+	text="Our family sends our best wishes to yours!" 
+	textAlign="center" type="fluid" mode="6" group="21">
+     <textArea fontColor="0x85640A" border="joy/Bells/textframe2.xml"/>
+     <textArea fontColor="0x630C2F" border="joy/Bows/frame_limeStripesSquare.xml"/>
+     <textArea fontColor="0xffffff" border="joy/Gingerbread/frame_blackCurls.xml"/>
+     <textArea fontColor="0xA02C59" border="joy/Holly/frame_goldSmallLeaves.xml"/>
+     <textArea fontColor="0xAECDD0" border="joy/LiteBlue/frame_starBlocksWhite.xml"/>
+     <textArea fontColor="0xB73B3B" border="joy/Santa/frame_cornerSanta.xml"/>
+     <textArea fontColor="0x630D30" border="joy/Scrollwork/rodEdgeShade.xml"/>
+     <textArea fontColor="0x000000" border="joy/Stocking/frame_limeScroll.xml"/>
+     <textArea fontColor="0x4A994A" border="joy/Tree/frame_starSetBorder.xml"/>
+  </text>
+  <text id="text7" fontSize="108" fontWeight="normal"
+	fontStyle="normal" fontFamily="sans-serif" 
+	width="0" height="0" text="Happy Holidays" textAlign="center"
+	maxAspect="1.2" minAspect="0.15"	type="fluid" mode="6" group="21">
+     <textArea fontColor="0x85640A" border="joy/Bells/textframe31.xml"/>
+     <textArea fontColor="0x630C2F" border="joy/Bows/frame_redBows.xml"/>
+     <textArea fontColor="0xffffff" border="joy/Gingerbread/frame_bwBursts.xml"/>
+     <textArea fontColor="0xF0DC95" border="joy/Holly/frame_blueWreath.xml"/>
+     <textArea fontColor="0xffffff" border="joy/LiteBlue/frame_horizStarsBlue.xml"/> 
+     <textArea fontColor="0xB73B3B" border="joy/Santa/frame_doilyWhite.xml"/>
+     <textArea fontColor="0x630D30" border="joy/Scrollwork/knotBorder.xml"/>
+     <textArea fontColor="0x000000" border="joy/Stocking/frame_leftStocking.xml"/>
+     <textArea fontColor="0xFBF7DA" border="joy/Tree/frame_treeBorder4.xml"/>
+  </text>
+</design>
+

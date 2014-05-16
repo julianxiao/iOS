@@ -1,0 +1,75 @@
+//
+//  PageView.h
+//  iphotobookThumbnail
+//
+//  Created by Kins Collins on 04/09/09.
+//  Copyright 2009 HP Labs. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "BookLayoutViewController.h"
+#import "MagicBorder.h"
+
+@class PageLayoutData;
+@class SingleImageCropViewController;
+
+
+//----------------------------------------------------------------------------------------------------------------------//
+@interface PageView : UIView <UIAccelerometerDelegate> {
+	PageLayoutData				*layoutFromBRIC;
+	BookLayoutViewController	*myViewController;
+	
+	CGPoint			startLocation;
+	CGFloat			scalingFactor;													//  1/1.5
+	
+	bool	landscapeView;
+	UIImageView *dragStartView;
+	
+	bool canShake;
+	
+	NSInteger newImageNumHandle;
+	CGPoint locationHandle;
+	SingleImageCropViewController *singleImageCropViewController;
+//	MagicBorder *magicBorder;
+	
+}
+
+@property  (nonatomic, retain)  PageLayoutData				*layoutFromBRIC;
+@property  (nonatomic, retain)  BookLayoutViewController	*myViewController;
+@property  (nonatomic, retain)  	UIImageView *dragStartView;
+@property (nonatomic, assign) CGFloat		scalingFactor;
+@property (nonatomic, assign) bool		landscapeView;
+@property (nonatomic, assign) bool		canShake;
+@property (nonatomic, assign) NSInteger newImageNumHandle;
+@property (nonatomic, assign) CGPoint locationHandle;
+@property  (nonatomic, retain) SingleImageCropViewController *singleImageCropViewController;
+
+//@property (nonatomic, retain) MagicBorder *magicBorder;
+
+- (id)			initWithViewController:  (BookLayoutViewController *)controller;
+- (void)		 layOutPage;
+
+//- (void) refreshMagicBorder;
+
+- (void) nextPage;
+- (void) previousPage;
+- (void) layoutAlternative;
+- (void) layoutSwap:(NSInteger)imageid1 withImage: (NSInteger)imageid2;
+- (void) addNewImage:(NSInteger) newImageNum atLocation:(CGPoint)location;
+- (void) removePhoto:(UIImageView *) imageNum;
+
+- (NSString *) buildLayout;
+
+-(void) callbacKFromBRICForAdd:(PageLayoutData *) aPagelayout;
+-(void) callbacKFromBRICForRemove:(PageLayoutData *) aPagelayout;
+
+- (UIView *) getCanvasView;
+- (void) updateLayoutAnimated;
+- (void) updateLayoutAnimated: (BOOL) refreshBorder;
+- (void) dragStart:(UITouch *)touch;
+- (void) dragMove:(UITouch *)touch;
+- (void) dragEnd:(UITouch *)touch;
+- (void) singleTap:(UITouch *)touch;
+
+@end
+//----------------------------------------------------------------------------------------------------------------------//

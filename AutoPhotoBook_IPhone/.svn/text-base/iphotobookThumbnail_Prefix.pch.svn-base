@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'iphotobookThumbnail' target in the 'iphotobookThumbnail' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define TOTAL_ARCHIVED_FILE_COUNT 995

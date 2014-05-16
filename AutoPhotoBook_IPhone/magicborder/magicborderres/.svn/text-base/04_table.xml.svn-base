@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<design name="table" icon="table/table_icon.jpg" sequence="fixed" 
+	style="table" scaleWithItems="0.6" 
+	bottomMargin="0" leftMargin="0" rightMargin="0" topMargin="0"
+	type="border-page" width="2100" height="1500" x="0" y="0"
+	defaultNumItems="5" numRandomVersions="9" numModes="4">
+
+  <layoutSequence>
+    <method layout="scatter" repelAtCount="0" sparseFactor="16" defaultNumItems="5"
+	    layoutDensityBlur="0" layoutDensityChannel="alpha" layoutDensityOffset="0"
+	    layoutDensityAmp="1" minItemSize="500" maxItemSize="1000"/>
+    <method layout="scatter" repelAtCount="3" sparseFactor="64" defaultNumItems="4"
+	    layoutDensityBlur="10" layoutDensityChannel="alpha" layoutDensityOffset="0"
+	    layoutDensityAmp="1" minItemSize="300" maxItemSize="400"/>
+  </layoutSequence>
+
+  <versionMenu id="versions">
+    <menuitem label="Surprise Me" imagesrc="table/surprise.jpg"/>
+    <menuitem label="Antique" imagesrc="table/Antique/Antique_icon.jpg"/>
+    <menuitem label="Candles" imagesrc="table/Candles/Candles_icon.jpg"/>
+    <menuitem label="Candy" imagesrc="table/Candy/Candy_icon.png"/>
+    <menuitem label="Cookies" imagesrc="table/Cookies/Cookies_icon.jpg"/>
+    <menuitem label="GiftBoxes" imagesrc="table/GiftBoxes/GiftBoxes_icon.png"/>
+    <menuitem label="Holly" imagesrc="table/Holly/Holly_icon.png"/>
+    <menuitem label="Ornmanents" imagesrc="table/Ornaments/Ornaments_icon.jpg"/>
+    <menuitem label="Party" imagesrc="table/Party/Party_icon.png"/>
+    <menuitem label="Stockings" imagesrc="table/Stockings/Stockings_icon.png"/>
+  </versionMenu>
+
+  <frame id="0" probability="0.5" minCount="0" order="2"
+	 faceScale="50" facecount="-1" scale="1" tilt="8" shiftX="0"
+	 shiftY="0" weight="1" padAlpha="1" aspectRatio="0.7"
+	 group="11" layoutSeq="0">
+    <border path="table/Antique/AntiqueFrame.xml" type="MagicBorder"/>
+    <border path="table/Candles/CandlesFrame.xml" type="MagicBorder"/>
+    <border path="table/Candy/pinkframe1_shadow.png" type="image"
+	    topMargin="114" bottomMargin="247" leftMargin="68" rightMargin="76"
+	    width="647" height="729" cutout="table/Candy/pinkframe1.png"/>
+    <border path="table/Cookies/redframe1.png" type="image"
+	    topMargin="60" bottomMargin="60" leftMargin="60" rightMargin="60"
+	    width="701" height="538"/>
+    <border path="table/GiftBoxes/redframe.png" type="image"
+	    topMargin="119" bottomMargin="167" leftMargin="69" rightMargin="58"
+	    width="642" height="740"/>
+    <border path="table/Holly/HollyFrame.xml" type="MagicBorder"/>
+    <border path="table/Ornaments/grayframe1.png" type="image"
+	    topMargin="40" bottomMargin="40" leftMargin="40" rightMargin="40"
+	    width="872" height="668"/>
+    <border path="table/Party/PartyFrame.xml" type="MagicBorder"/>
+    <border path="table/Stockings/StockingsGreenFrame.xml" type="MagicBorder"/>
+  </frame>
+
+  <frame id="1" probability="0.5" minCount="0" order="2"
+	 faceScale="50" facecount="-1" scale="1" tilt="8" shiftX="0"
+	 shiftY="0" weight="1" padAlpha="1" aspectRatio="0.7"
+	 group="11" layoutSeq="0">
+    <border path="table/Antique/AntiqueFrame.xml" type="MagicBorder"/>
+    <border path="table/Candles/CandlesFrame.xml" type="MagicBorder"/>
+    <border path="table/Candy/greenframe1_shadow.png" type="image"
+	    topMargin="116" bottomMargin="250" leftMargin="71" rightMargin="81"
+	    width="647" height="726" cutout="table/Candy/greenframe1.png"/>
+    <border path="table/Cookies/greenframe1.png" type="image"
+	    topMargin="60" bottomMargin="60" leftMargin="60" rightMargin="60"
+	    width="701" height="539"/>
+    <border path="table/GiftBoxes/blueframe.png" type="image"
+	    topMargin="119" bottomMargin="167" leftMargin="69" rightMargin="58"
+	    width="642" height="740"/>
+    <border path="table/Holly/HollyFrame.xml" type="MagicBorder"/>
+    <border path="table/Ornaments/grayframe1.png" type="image"
+	    topMargin="40" bottomMargin="40" leftMargin="40" rightMargin="40"
+	    width="872" height="668"/>
+    <border path="table/Party/PartyFrame.xml" type="MagicBorder"/>
+    <border path="table/Stockings/StockingsPlumFrame.xml" type="MagicBorder"/>
+  </frame>
+
+  <frame id="2" probability="0.5" minCount="0" order="2"
+	 faceScale="50" facecount="-1" scale="1" tilt="8" shiftX="0"
+	 shiftY="0" weight="1" padAlpha="1" aspectRatio="1.3"
+	 group="11" layoutSeq="0">
+    <border path="table/Antique/AntiqueFrame.xml" type="MagicBorder"/>
+    <border path="table/Candles/CandlesFrame.xml" type="MagicBorder"/>
+    <border path="table/Candy/greenframe2_shadow.png" type="image"
+	    topMargin="67" bottomMargin="85" leftMargin="231" rightMargin="138"
+	    width="735" height="655" cutout="table/Candy/greenframe2.png"/>
+    <border path="table/Cookies/greenframe2.png" type="image"
+	    topMargin="60" bottomMargin="60" leftMargin="60" rightMargin="60"
+	    height="701" width="539"/>
+    <border path="table/GiftBoxes/greenframe.png" type="image"
+	    topMargin="119" bottomMargin="167" leftMargin="69" rightMargin="58"
+	    width="642" height="740"/>
+    <border path="table/Holly/HollyFrame.xml" type="MagicBorder"/>
+    <border path="table/Ornaments/grayframe2.png" type="image"
+	    topMargin="40" bottomMargin="40" leftMargin="40" rightMargin="40"
+	    height="872" width="668"/>
+    <border path="table/Party/PartyFrame.xml" type="MagicBorder"/>
+    <border path="table/Stockings/StockingsGreenFrame.xml" type="MagicBorder"/>
+  </frame>
+
+  <frame id="3" probability="0.5" minCount="0" order="2"
+	 faceScale="50" facecount="-1" scale="1" tilt="8" shiftX="0"
+	 shiftY="0" weight="1" padAlpha="1" aspectRatio="1.3"
+	 group="11" layoutSeq="0">
+    <border path="table/Antique/AntiqueFrame.xml" type="MagicBorder"/>
+    <border path="table/Candles/CandlesFrame.xml" type="MagicBorder"/>
+    <border path="table/Candy/pinkframe2_shadow.png" type="image" 
+	    topMargin="82" bottomMargin="76" leftMargin="119" rightMargin="254"
+	    width="738" height="658" cutout="table/Candy/pinkframe2.png"/>
+    <border path="table/Cookies/redframe2.png" type="image"
+	    topMargin="60" bottomMargin="60" leftMargin="60" rightMargin="60"
+	    height="701" width="538"/>
+    <border path="table/GiftBoxes/plumframe.png" type="image" 
+	    topMargin="119" bottomMargin="167" leftMargin="69" rightMargin="58"
+	    width="642" height="740"/>
+    <border path="table/Holly/HollyFrame.xml" type="MagicBorder"/>
+    <border path="table/Ornaments/grayframe2.png" type="image"
+	    topMargin="40" bottomMargin="40" leftMargin="40" rightMargin="40"
+	    height="872" width="668"/>
+    <border path="table/Party/PartyFrame.xml" type="MagicBorder"/>
+    <border path="table/Stockings/StockingsPlumFrame.xml" type="MagicBorder"/>
+  </frame>
+
+  <!-- accents to lay out with photos -->
+  <frame id="6" probability="0" minCount="0" showAtCount="100"
+	 order="1" facecount="-1" scale="1.5" tilt="8" shiftX="0" shiftY="0" 
+	 weight="0.6" group="17" layoutSeq="1">
+    <border path="table/Antique/angel.png" type="image"
+	 aspectRatio="1.251" order="3" scale="1.65"/>
+    <border path="table/Candles/brass.png" type="image" aspectRatio="1.8" scale="2"/>
+    <border path="table/Candy/candy1.png" type="image" aspectRatio="0.5418" scale="1.15"/>
+    <border path="table/Cookies/cookie_gingerbread.png" type="image" aspectRatio="1.2845"/>
+    <border path="table/GiftBoxes/goldbox.png" type="image"
+	 aspectRatio="0.7494" layoutSeq="0" order="0" scale="1.1"/>
+    <border path="table/Holly/HollySprig.png" type="image" aspectRatio="0.9698"/>
+    <border path="table/Ornaments/paper_burst.png" type="image" aspectRatio="1.1" scale="1.8"/>
+    <border path="table/Party/GoldBox2.png" type="image"
+	    aspectRatio="0.612" order="0" layoutSeq="0" scale="1"/>
+    <!--border path="table/Stockings/Stocking1.png" type="image" aspectRatio="1.0714"/-->
+    <border path="table/Stockings/Stocking1a.png" type="image" aspectRatio="1.391"/>
+  </frame>
+
+  <frame id="7" probability="0" minCount="0" showAtCount="100"
+	 order="1" facecount="-1" scale="1.5" tilt="8" shiftX="0" shiftY="0" 
+	 weight="0.6" group="18" layoutSeq="1">
+    <border path="table/Antique/reindeer.png" type="image"
+	 aspectRatio="0.6683" order="3"  scale="1.65"/>
+    <border path="table/Candles/shortMatches.png" type="image" aspectRatio="0.677" scale="0.93"/>
+    <border path="table/Candy/plateWithCandy.png" type="image"
+	 aspectRatio="1.0067" layoutSeq="0" scale="1.2"/>
+    <border path="table/Cookies/cookie_redstar.png" type="image" aspectRatio="0.9768"/>
+    <border path="table/GiftBoxes/Tag1.png" type="image" aspectRatio="0.375" order="3"/>
+    <border/>
+    <border path="table/Ornaments/paper_lace.png" type="image" aspectRatio="1.172" scale="1.8"/>
+    <border path="table/Party/Napkin.png" type="image" aspectRatio="0.7722" order="0" scale="1.5"/>
+    <border path="table/Stockings/Stocking2.png" type="image" aspectRatio="1.3138"/>
+  </frame>
+
+  <frame id="8" probability="0" minCount="0" showAtCount="100"
+	 order="1" facecount="-1" scale="1.5" tilt="8" shiftX="0" shiftY="0" 
+	 weight="0.6" group="19" layoutSeq="1">
+    <border path="table/Antique/tree_sleigh.png" type="image"
+	    aspectRatio="2.187" order="3" scale="1.65"/>
+    <border/>
+    <border path="table/Candy/candy2.png" type="image"
+	 aspectRatio="1.5071" scale="1.2"/>
+    <border path="table/Cookies/cookie_tree.png" type="image" aspectRatio="0.9809"/>
+    <border path="table/GiftBoxes/Tag2.png" type="image"
+	    aspectRatio="1.5" order="3" scale="1.8"/> 
+    <border path="table/Holly/Bow.png" type="image" aspectRatio="0.9899"/>
+    <border path="table/Ornaments/paper_quilt.png" type="image" aspectRatio="0.751" scale="1.8"/>
+    <border path="table/Party/TableCard.png" type="image"
+	    aspectRatio="0.3680" order="3" scale="1"/>
+    <border path="table/Stockings/Stocking3.png" type="image" aspectRatio="1.3046"/>
+  </frame>
+
+  <frame id="10" probability="0" minCount="0" showAtCount="5"
+	 order="0" facecount="-1" scale="1" tilt="8" shiftX="0" shiftY="0" 
+	 weight="0.6" group="19" layoutSeq="0">
+    <border/>
+    <border/>
+    <border/>
+    <border/>
+    <border/>
+    <border/>
+    <border/>
+    <border path="table/Party/BlackBox2.png" type="image" aspectRatio="0.616"/>
+    <border/>
+  </frame>
+
+  <!--frame id="9" probability="0" minCount="0" showAtCount="100"
+	 order="1" facecount="-1" scale="1.5" tilt="8" shiftX="0" shiftY="0" 
+	 weight="0.2" group="20" layoutSeq="1">
+    <border path="table/Antique/tree_sleigh.png" type="image"
+	 aspectRatio="2.187" order="3" scale="1.65"/>
+    <border path="table/Candles/placemat.png" type="image" aspectRatio="0.758" order="3"/>
+    <border path="table/Candy/plate.png" type="image" aspectRatio="1.0013"/>
+    <border path="table/Cookies/cookie_plate.png" type="image" aspectRatio="1"/>
+    <border path="table/GiftBoxes/rosebox.png" type="image"
+	 aspectRatio="0.8479" layoutSeq="0" scale="1.1" order="0"/>
+    <border/>
+    <border path="table/Ornaments/paper_vine.png" type="image"
+	 aspectRatio="0.711" scale="1.65"/>
+    <border path="table/Party/Napkin.png" type="image" aspectRatio="0.7722"/>
+    <border path="table/Stockings/Stocking4.png" type="image" aspectRatio="1.3"/>
+  </frame-->
+  
+  <!-- background texture -->
+  <Element position="area" type="repeating" style="texture"
+	   width="2520" height="1800" x="-210" y="-150"
+	   alignment="both" layoutDensity="-1" group="0">
+    <image source="table/Antique/Antique_paper.png" width="515" height="395"/>
+    <image source="table/Candles/Candles_paper.png" width="697" height="750"/>
+    <image source="table/Candy/Candy_paper.png" width="500" height="543"/>
+    <image source="table/Cookies/Cookies_paper.png" width="705" height="744"/>
+    <image source="table/GiftBoxes/GiftBoxes_paper.png" width="608" height="303"/>
+    <image source="table/Holly/Holly_paper.png" width="454" height="450"/>
+    <image source="table/Ornaments/Ornaments_paper.png" width="420" height="297"/>
+    <image source="table/Party/Party_paper.png" width="460" height="301"/>
+    <image source="table/Stockings/Stockings_paper.png" width="374" height="374"/>
+  </Element>
+
+  <Element position="topLeft" type="corner" layoutDensity="-1"
+	   width="1410" height="1350" x="-200" y="-200" group="1">
+    <image source="table/Antique/doily.png" width="1410" height="1350"/>
+    <image/>
+  </Element>
+
+  <Element position="topLeft" type="corner" layoutDensity="-1"
+	   width="1233" height="1402" x="200" y="-20" group="1">
+    <image/>
+    <image/>
+    <image/>
+    <image/>
+    <image/>
+    <image source="table/Holly/Parchment_tilt.png" width="1233" height="1402"/>
+    <image/>
+  </Element>
+
+  <Element position="topLeft" type="corner" layoutDensity="-1"
+	   width="1260" height="1076" x="600" y="500" group="1">
+    <image/>
+    <image source="table/Candles/placemat_tilt.png" width="1260" height="1076"/>
+    <image/>
+  </Element>
+
+  <!--Element position="topLeft" type="corner" layoutDensity="0"
+	   width="548" height="720" x="-10" y="-20" group="1">
+    <image/>
+    <image/>
+    <image/>
+    <image/>
+    <image/>
+    <image/>
+    <image/>
+    <image/>
+    <image source="table/Stockings/Stocking2.png" width="548" height="720"/>
+  </Element-->
+
+  
+   <!-- text mode 1: right side text-->
+   <!-- text background, mode 1-->
+   <Element group="0" mode="1" width="810" height="1800" x="1500" y="-150" 
+	    layoutDensity="-1" position="right" type="repeating"
+	    marginpusher="left" style="texture">
+    <image source="table/Antique/Antique_text.png" width="515" height="383"/>
+    <image source="table/Candles/Candles_text.png" width="515" height="270"/>
+    <image source="table/Candy/Candy_text.png" width="434" height="255"/>
+    <image source="table/Cookies/Cookies_text.png" width="8" height="8"/>
+    <image source="table/GiftBoxes/GiftBoxes_text.png" width="608" height="303"/>
+    <image source="table/Holly/Holly_text.png" width="454" height="450"/>
+    <image source="table/Ornaments/Ornaments_text.png" width="420" height="297"/>
+    <image source="table/Party/Party_text.png" width="460" height="301"/>
+    <image source="table/Stockings/Stockings_text.png" width="374" height="374"/>
+   </Element>
+
+   <!-- text divider, mode 1-->
+   <Element group="0" mode="1" width="64" height="1800" x="1468" y="-150" 
+	    layoutDensity="-1" position="right"
+	    type="repeating" style="looseFit" alignment="vertical" >
+    <image source="table/Antique/Antique_divider1.png" width="64" height="238"/>
+    <image source="table/Candles/Candles_divider1.png" width="64" height="238"/>
+    <image source="table/Candy/Candy_divider1.png" width="64" height="16"/>
+    <image/>
+    <image source="table/GiftBoxes/GiftBoxes_divider1.png" width="64" height="150"/>
+    <image source="table/Holly/Holly_divider1.png" width="64" height="452"/>
+    <image/>
+    <image source="table/Party/Party_divider1.png" width="64" height="118"/>
+    <image/>
+   </Element>
+
+   <!-- text blocks, mode 1 -->
+   <text group="0" mode="1" id="text2" position="right" type="foreground"
+	 fontSize="64" fontWeight="normal" fontStyle="italic" fontFamily="sans-serif" 
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="All our best&#10;The HP Family" width="500" height="600" x="1550" y="800">
+     <textArea fontColor="0x391612"/>
+     <textArea fontColor="0xc61122"/>
+     <textArea fontColor="0x2e452a"/>
+     <textArea fontColor="0xc61122"/>
+     <textArea fontColor="0xe3e2cb"/>
+     <textArea fontColor="0xffddbf"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0xffddbf"/>
+     <textArea fontColor="0x000000"/>
+   </text>
+   <text group="0" mode="1" id="text1" position="right" type="foreground" 
+	 fontSize="108" fontWeight="normal" fontStyle="normal" fontFamily="sans-serif"
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="Happy Holidays" width="500" height="600" x="1550"
+	 y="100">
+     <textArea fontColor="0x391612"/>
+     <textArea fontColor="0xc61122"/>
+     <textArea fontColor="0x2e452a"/>
+     <textArea fontColor="0xc61122"/>
+     <textArea fontColor="0xe3e2cb"/>
+     <textArea fontColor="0xffddbf"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0xffddbf"/>
+     <textArea fontColor="0x000000"/>
+   </text>
+
+   <!-- text mode 2: left side text-->
+   <!-- text background, mode 2-->
+   <Element group="0" mode="2" width="810" height="1800" x="-210" y="-150" 
+	    layoutDensity="-1" position="left" type="repeating"
+	    marginpusher="right" style="texture">
+    <image source="table/Antique/Antique_text.png" width="515" height="383"/>
+    <image source="table/Candles/Candles_text.png" width="515" height="270"/>
+    <image source="table/Candy/Candy_text.png" width="434" height="255"/>
+    <image source="table/Cookies/Cookies_text.png" width="8" height="8"/>
+    <image source="table/GiftBoxes/GiftBoxes_text.png" width="608" height="303"/>
+    <image source="table/Holly/Holly_text.png" width="454" height="450"/>
+    <image source="table/Ornaments/Ornaments_text.png" width="420" height="297"/>
+    <image source="table/Party/Party_text.png" width="460" height="301"/>
+    <image source="table/Stockings/Stockings_text.png" width="374" height="374"/>
+   </Element>
+
+   <!-- text divider, mode 2-->
+   <Element group="0" mode="2" width="64" height="1800" x="568" y="-150" 
+	    layoutDensity="-1" position="left"
+	    type="repeating" style="looseFit" alignment="vertical" >
+    <image source="table/Antique/Antique_divider1.png" width="64" height="238"/>
+    <image source="table/Candles/Candles_divider1.png" width="64" height="238"/>
+    <image source="table/Candy/Candy_divider1.png" width="64" height="16"/>
+    <image/>
+    <image source="table/GiftBoxes/GiftBoxes_divider1.png" width="64" height="150"/>
+    <image source="table/Holly/Holly_divider1.png" width="64" height="452"/>
+    <image/>
+    <image source="table/Party/Party_divider1.png" width="64" height="118"/>
+    <image/>
+   </Element>
+
+   <!-- text blocks, mode 2 -->
+   <text group="0" mode="2" id="text2" position="left" type="foreground"
+	 fontSize="64" fontWeight="normal" fontStyle="italic" fontFamily="sans-serif" 
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="All our best&#10;The HP Family" width="500" height="600" x="50" y="800">
+     <textArea fontColor="0x391612"/>
+     <textArea fontColor="0xc61122"/>
+     <textArea fontColor="0x2e452a"/>
+     <textArea fontColor="0xc61122"/>
+     <textArea fontColor="0xe3e2cb"/>
+     <textArea fontColor="0xffddbf"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0xffddbf"/>
+     <textArea fontColor="0x000000"/>
+   </text>
+   <text group="0" mode="2" id="text1" position="left" type="foreground" 
+	 fontSize="108" fontWeight="normal" fontStyle="normal" fontFamily="sans-serif"
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="Happy Holidays" width="500" height="600" x="50"
+	 y="100">
+     <textArea fontColor="0x391612"/>
+     <textArea fontColor="0xc61122"/>
+     <textArea fontColor="0x2e452a"/>
+     <textArea fontColor="0xc61122"/>
+     <textArea fontColor="0xe3e2cb"/>
+     <textArea fontColor="0xffddbf"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0xffddbf"/>
+     <textArea fontColor="0x000000"/>
+   </text>
+
+   <!-- text mode 3: bottom text-->
+   <!-- text background, mode 3-->
+   <Element group="0" mode="3" width="2520" height="450" x="-210" y="1200" 
+	    layoutDensity="-1" position="bottom" type="repeating" marginpusher="top"
+	    style="texture">
+    <image source="table/Antique/Antique_text.png" width="515" height="383"/>
+    <image source="table/Candles/Candles_text.png" width="515" height="270"/>
+    <image source="table/Candy/Candy_text.png" width="434" height="255"/>
+    <image source="table/Cookies/Cookies_text.png" width="8" height="8"/>
+    <image source="table/GiftBoxes/GiftBoxes_text.png" width="608" height="303"/>
+    <image source="table/Holly/Holly_text.png" width="454" height="450"/>
+    <image source="table/Ornaments/Ornaments_text.png" width="420" height="297"/>
+    <image source="table/Party/Party_text.png" width="460" height="301"/>
+    <image source="table/Stockings/Stockings_text.png" width="374" height="374"/>
+   </Element>
+
+   <!-- text divider, mode 3-->
+   <Element group="0" mode="3" width="2520" height="64" x="-210" y="1168" 
+	    layoutDensity="-1" position="bottom"
+	    type="repeating" style="looseFit" alignment="horizontal" >
+     <image source="table/Antique/Antique_divider2.png" width="238" height="64"/>
+     <image source="table/Candles/Candles_divider2.png" width="238" height="64"/>
+     <image source="table/Candy/Candy_divider2.png" width="16" height="64"/>
+     <image/>
+     <image source="table/GiftBoxes/GiftBoxes_divider2.png" width="150" height="64"/>
+     <image source="table/Holly/Holly_divider2.png" width="452" height="64"/>
+     <image/>
+     <image source="table/Party/Party_divider2.png" width="118" height="64"/>
+     <image/>
+   </Element>
+
+   <!-- text blocks, mode 3 -->
+   <text group="0" mode="3" id="text2" position="bottom" type="foreground"
+	 fontSize="64" fontWeight="normal" fontStyle="italic" fontFamily="sans-serif" 
+	 fontColor="0x000000" areaAlpha="0" textAlign="center" order="0"
+	 text="All our best&#10;The HP Family" width="900" height="240" x="1150" y="1240">
+     <textArea fontColor="0x391612"/>
+     <textArea fontColor="0xc61122"/>
+     <textArea fontColor="0x2e452a"/>
+     <textArea fontColor="0xc61122"/>
+     <textArea fontColor="0xe3e2cb"/>
+     <textArea fontColor="0xffddbf"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0xffddbf"/>
+     <textArea fontColor="0x000000"/>
+   </text>
+   <text group="0" mode="3" id="text1" position="bottom" type="foreground" 
+	 fontSize="108" fontWeight="normal" fontStyle="normal" fontFamily="sans-serif"
+	 fontColor="0x000000" areaAlpha="0" textAlign="center" order="0"
+	 text="Happy Holidays" width="900" height="240" x="50"
+	 y="1240">
+     <textArea fontColor="0x391612"/>
+     <textArea fontColor="0xc61122"/>
+     <textArea fontColor="0x2e452a"/>
+     <textArea fontColor="0xc61122"/>
+     <textArea fontColor="0xe3e2cb"/>
+     <textArea fontColor="0xffddbf"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0xffddbf"/>
+     <textArea fontColor="0x000000"/>
+   </text>
+
+</design>
+

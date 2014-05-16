@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<design name="starcard" icon="starcard/starcard_icon.jpg" sequence="fixed" 
+	style="starcard" scaleWithItems="0.6"
+	bottomMargin="50" leftMargin="50" rightMargin="50" topMargin="50"
+	type="border-page" width="2100" height="1500" x="0" y="0"
+	numRandomVersions="8" numModes="4" defaultNumItems="5" itemGap="10">
+
+  <layoutSequence>
+    <method layout="bric" itemGap="50"/>
+    <method layout="scatter" repelAtCount="0" sparseFactor="64" defaultNumItems="3"
+	    layoutDensityBlur="10" layoutDensityChannel="alpha" layoutDensityOffset="0"
+	    layoutDensityAmp="1" minItemSize="100" maxItemSize="250"/>
+  </layoutSequence>
+
+  <versionMenu id="versions">
+    <menuitem label="Surprise Me" imagesrc="surprise.jpg"/>
+    <menuitem label="Bell" imagesrc="starcard/Bell/Bell_icon.jpg"/>
+    <menuitem label="CandyHouse" imagesrc="starcard/CandyHouse/CandyHouse_icon.jpg"/>
+    <menuitem label="Gift" imagesrc="starcard/Gift/Gift_icon.jpg"/>
+    <menuitem label="PearTree" imagesrc="starcard/PearTree/Peartree_icon.jpg"/>
+    <menuitem label="Star" imagesrc="starcard/Star/Star_icon.jpg"/>
+    <menuitem label="Stocking" imagesrc="starcard/Stocking/Stocking_icon.jpg"/>
+    <menuitem label="Tree" imagesrc="starcard/Tree/Tree_icon.jpg"/>
+    <menuitem label="Wreath" imagesrc="starcard/Wreath/Wreath_icon.jpg"/>
+    <menuitem label="Jewish" imagesrc="starcard/Jewish/Jewish_icon.jpg"/>
+  </versionMenu>
+
+  <frame id="0" probability="0.2" minCount="0" order="1"
+	 faceScale="3" facecount="1" scale="1" tilt="0" shiftX="0"
+	 shiftY="0" weight="-1" padAlpha="0" aspectRatio="1" group="11"
+	 layoutSeq="0">
+    <border path="starcard/Bell/Bell_frame1.png" cutout="starcard/Bell/Bell1.png" 
+	    type="image" aspectRatio="1.194" faceShiftY="0.05" tilt="8"
+	    topMargin="250" bottomMargin="177" leftMargin="126" rightMargin="125"
+	    width="651" height="777"/>
+    <border path="starcard/CandyHouse/CandyFrame1.xml" type="MagicBorder"/>
+    <border path="starcard/Gift/Gift_frame1.png" type="image"
+	    cutout="starcard/Gift/Gift1.png" aspectRatio="1.07" faceShiftY="0.2"
+	    topMargin="272" bottomMargin="19" leftMargin="25" rightMargin="34"
+	    width="600" height="642"/>
+    <border path="starcard/PearTree/partridge_frame.png" type="image" padAlpha="1"
+	    cutout="starcard/PearTree/partridge_cutout.png" aspectRatio="0.85"
+	    topMargin="103" bottomMargin="169" leftMargin="196" rightMargin="180"
+	    scale="1" width="820" height="699"/>
+    <border path="starcard/Star/Star_frame.png" type="image"
+	    scale="1.5" tilt="8" padAlpha="1"
+	    cutout="starcard/Star/Star_cutout.png" aspectRatio="0.96"
+	    topMargin="225" bottomMargin="178" leftMargin="210" rightMargin="223"
+	    width="733" height="703"/>
+    <border path="starcard/Stocking/Stocking_frame1.png" type="image"
+	    cutout="starcard/Stocking/Stocking1.png"
+	    aspectRatio="1.18" faceShiftX="-0.2" faceShiftY="0.1"
+	    topMargin="280" bottomMargin="163" leftMargin="20" rightMargin="330"
+	    width="800" height="943"/>
+    <border path="starcard/Tree/Tree_frame.png" type="image"
+	    cutout="starcard/Tree/Tree_cutout.png" aspectRatio="1.132"
+	    topMargin="220" bottomMargin="183"  leftMargin="142" rightMargin="156"
+	    width="798" height="903"/>
+    <border path="starcard/Wreath/Wreath_frame.png" type="image" padAlpha="1"
+	    cutout="starcard/Wreath/Wreath_cutout.png" aspectRatio="0.99"
+	    topMargin="163" bottomMargin="170" leftMargin="170" rightMargin="170"
+	    width="800" height="793"/>
+    <border path="starcard/Jewish/Jewish_frame1.png" type="image"
+	    padAlpha="1" scale="1.05"
+	    cutout="starcard/Jewish/Jewish_cutout1.png" aspectRatio="1.186"
+	    topMargin="204" bottomMargin="226" leftMargin="143" rightMargin="157"
+	    width="700" height="830"/>
+  </frame>
+
+  <frame id="1" probability="0.2" minCount="0" order="1"
+	 faceScale="3" facecount="1"	scale="1" tilt="0" shiftX="0"
+	 shiftY="0" weight="-1" padAlpha="0" aspectRatio="1.1"
+	 group="12" layoutSeq="0">
+    <border path="starcard/Bell/Bell_frame2.png" cutout="starcard/Bell/Bell2.png" 
+	    type="image" aspectRatio="1.196" faceShiftY="0.05" tilt="8"
+	    topMargin="250" bottomMargin="177" leftMargin="126" rightMargin="125"
+	    width="649" height="776"/>
+    <border path="starcard/CandyHouse/CandyFrame2.xml" type="MagicBorder"/>
+    <border path="starcard/Gift/Gift_frame2.png" type="image"
+	    cutout="starcard/Gift/Gift2.png" aspectRatio="1.077" faceShiftY="0.2"
+	    topMargin="263" bottomMargin="12" leftMargin="19" rightMargin="21"
+	    width="600" height="646"/>
+    <border path="starcard/PearTree/partridge_frame.png" type="image" padAlpha="1"
+	    cutout="starcard/PearTree/partridge_cutout.png" aspectRatio="0.85"
+	    topMargin="103" bottomMargin="169" leftMargin="196" rightMargin="180"
+	    scale="0.9" width="820" height="699"/>
+    <border path="starcard/Star/Star_frame.png" type="image"   scale="1.3" tilt="8"
+	    cutout="starcard/Star/Star_cutout.png" aspectRatio="0.96" padAlpha="1"
+	    topMargin="225" bottomMargin="178" leftMargin="210" rightMargin="223"
+	    width="733" height="703"/>
+    <border path="starcard/Stocking/Stocking_frame2.png" type="image"
+	    faceShiftX="-0.2" faceShiftY="0.1"
+	    cutout="starcard/Stocking/Stocking2.png" aspectRatio="1.18"
+	    topMargin="280" bottomMargin="163"  leftMargin="20" rightMargin="330"
+	    width="800" height="943"/>
+    <border path="starcard/Tree/Tree_frame.png" type="image"
+	    cutout="starcard/Tree/Tree_cutout.png" aspectRatio="1.132"
+	    topMargin="220" bottomMargin="183"  leftMargin="142" rightMargin="156"
+	    width="798" height="903"/>
+    <border path="starcard/Wreath/Wreath_frame.png" type="image" padAlpha="1"
+	    cutout="starcard/Wreath/Wreath_cutout.png" aspectRatio="0.99"
+	    topMargin="163" bottomMargin="170" leftMargin="170" rightMargin="170"
+	    width="800" height="793"/>
+    <border path="starcard/Jewish/Jewish_frame1.png" type="image"
+	    padAlpha="1" scale="1.05"
+	    cutout="starcard/Jewish/Jewish_cutout1.png" aspectRatio="1.186"
+	    topMargin="204" bottomMargin="226" leftMargin="143" rightMargin="157"
+	    width="700" height="830"/>
+  </frame>
+
+  <frame id="2" probability="0.2" minCount="0" order="1" scale="1"
+	 faceScale="3" facecount="1" tilt="0" shiftX="0"
+	 shiftY="0" weight="-1" padAlpha="0" aspectRatio="1.1" group="13">
+    <border path="starcard/Bell/Bell_frame3.png" cutout="starcard/Bell/Bell3.png" 
+	    type="image" aspectRatio="1.194" faceShiftY="0.05" tilt="8"
+	    topMargin="250" bottomMargin="177" leftMargin="126" rightMargin="125"
+	    width="650" height="776"/>
+    <border path="starcard/CandyHouse/CandyFrame2.xml" type="MagicBorder"/>
+    <border path="starcard/Gift/Gift_frame3.png" type="image"
+	    cutout="starcard/Gift/Gift3.png" aspectRatio="1.07" faceShiftY="0.2"
+	    topMargin="277" bottomMargin="20" leftMargin="29" rightMargin="35"
+	    width="600" height="641"/>
+    <border path="starcard/PearTree/partridge_frame.png" type="image" padAlpha="1"
+	    cutout="starcard/PearTree/partridge_cutout.png" aspectRatio="0.85"
+	    topMargin="103" bottomMargin="169" leftMargin="196" rightMargin="180"
+	    scale="1.1" width="820" height="699"/>
+    <border path="starcard/Star/Star_frame.png" type="image"   scale="1.4" tilt="8"
+	    cutout="starcard/Star/Star_cutout.png" aspectRatio="0.96" padAlpha="1"
+	    topMargin="225" bottomMargin="178" leftMargin="210" rightMargin="223"
+	    width="733" height="703"/>
+    <border path="starcard/Stocking/Stocking_frame3.png" type="image"
+	    faceShiftX="-0.2" faceShiftY="0.1"
+	    cutout="starcard/Stocking/Stocking3.png" aspectRatio="1.18"
+	    topMargin="280" bottomMargin="163"  leftMargin="20" rightMargin="330"
+	    width="800" height="943"/>
+    <border path="starcard/Tree/Tree_frame.png" type="image"
+	    cutout="starcard/Tree/Tree_cutout.png" aspectRatio="1.132"
+	    topMargin="220" bottomMargin="183"  leftMargin="142" rightMargin="156"
+	    width="798" height="903"/>
+    <border path="starcard/Wreath/Wreath_frame.png" type="image" padAlpha="1"
+	    cutout="starcard/Wreath/Wreath_cutout.png" aspectRatio="0.99"
+	    topMargin="163" bottomMargin="170" leftMargin="170" rightMargin="170"
+	    width="800" height="793"/>
+    <border path="starcard/Jewish/Jewish_frame1.png" type="image" padAlpha="1" scale="1.05"
+	    cutout="starcard/Jewish/Jewish_cutout1.png" aspectRatio="1.186"
+	    topMargin="204" bottomMargin="226" leftMargin="143" rightMargin="157"
+	    width="700" height="830"/>
+  </frame>
+
+  <frame id="3" probability="0.2" minCount="0" order="0"
+	 faceScale="3" facecount="-1"	scale="1" tilt="0" shiftX="0"
+	 shiftY="0" weight="-1" padAlpha="0" aspectRatio="1.2"
+	 group="14">
+    <border path="starcard/shadowbox.xml" type="MagicBorder" scale="1.2"/>
+    <border path="starcard/CandyHouse/CandyFrame1.xml" type="MagicBorder" order="1"/>
+    <border path="starcard/shadowbox.xml" type="MagicBorder" scale="1.2"/>
+    <border path="starcard/PearTree/partridge_frame.png" type="image" padAlpha="1"
+	    cutout="starcard/PearTree/partridge_cutout.png" aspectRatio="0.85"
+	    topMargin="103" bottomMargin="169" leftMargin="196" rightMargin="180"
+	    scale="0.85" width="820" height="699"/>
+    <border path="starcard/shadowbox.xml" type="MagicBorder" scale="1.2"/>
+    <border path="starcard/shadowbox.xml" type="MagicBorder" scale="1.2"/>
+    <border path="starcard/shadowbox.xml" type="MagicBorder" scale="1.2"/>
+    <border path="starcard/shadowbox.xml" type="MagicBorder" scale="1.2"/>
+    <border path="starcard/shadowbox.xml" type="MagicBorder" scale="1.2"/>
+  </frame>
+
+  <frame id="4" probability="0.2" minCount="0" order="3"
+	 faceScale="3" facecount="-1"	scale="1" tilt="0" shiftX="0"
+	 shiftY="0" weight="-1" padAlpha="0" aspectRatio="-1" group="15">
+    <border path="starcard/inset.png" type="image" aspectRatio="-1"
+	    tilt="0" padAlpha="1"/>
+    <border path="starcard/CandyHouse/CandyFrame1.xml" type="MagicBorder" order="1"/>
+    <border path="starcard/inset.png" type="image" aspectRatio="-1"
+	    tilt="0" padAlpha="1"/>
+    <border path="starcard/PearTree/partridge_frame.png" type="image" padAlpha="1"
+	    cutout="starcard/PearTree/partridge_cutout.png" aspectRatio="0.85"
+	    topMargin="103" bottomMargin="169" leftMargin="196" rightMargin="180"
+	    width="820" height="699"/>
+    <border path="starcard/inset.png" type="image" aspectRatio="-1"
+	    tilt="0" padAlpha="1"/>
+    <border path="starcard/inset.png" type="image" aspectRatio="-1"
+	    tilt="0" padAlpha="1"/>
+    <border path="starcard/inset.png" type="image" aspectRatio="-1"
+	    tilt="0" padAlpha="1"/>
+    <border path="starcard/inset.png" type="image" aspectRatio="-1"
+	    tilt="0" padAlpha="1"/>
+    <border path="starcard/inset.png" type="image" aspectRatio="-1"
+	    tilt="0" padAlpha="1"/>
+  </frame>
+
+  <!-- accents to lay out with photos -->
+  <frame id="6" probability="0" minCount="0" showAtCount="5"
+	 order="4" facecount="-1" scale="1" tilt="0" shiftX="0" shiftY="0" 
+	 weight="-0.5" group="17" layoutSeq="0">
+    <border path="starcard/Bell/Bell1.png" type="image"
+	 aspectRatio="1.194" tilt="8"/>
+    <border/>
+    <border path="starcard/Gift/Gift1.png" type="image" aspectRatio="1.07"/>
+    <border/>
+    <border/>
+    <border path="starcard/Stocking/Stocking1.png" type="image" aspectRatio="1.18"/>
+    <border path="starcard/Tree/Tree_lit.png" type="image" aspectRatio="1.132"/>
+    <border/>
+    <border path="starcard/Jewish/Jewish_candles.png" type="image" aspectRatio="1.186"/>
+  </frame>
+
+  <frame id="7" probability="0" minCount="0" showAtCount="5"
+	 order="4" facecount="-1" scale="1" tilt="0" shiftX="0" shiftY="0" 
+	 weight="-0.5" group="18" layoutSeq="0">
+    <border path="starcard/Bell/Bell2.png" type="image" aspectRatio="1.194" tilt="8"/>
+    <border/>
+    <border path="starcard/Gift/Gift2.png" type="image" aspectRatio="1.07"/>
+    <border/>
+    <border/>
+    <border path="starcard/Stocking/Stocking2.png" type="image" aspectRatio="1.18"/>
+    <border/>
+  </frame>
+
+  <frame id="8" probability="0" minCount="0" showAtCount="5"
+	 order="4" facecount="-1" scale="1" tilt="0" shiftX="0" shiftY="0" 
+	 weight="-0.5" group="19" layoutSeq="0">
+    <border path="starcard/Bell/Bell3.png" type="image" aspectRatio="1.194" tilt="8"/>
+    <border/>
+    <border path="starcard/Gift/Gift3.png" type="image" aspectRatio="1.07"/>
+    <border/>
+    <border/>
+    <border path="starcard/Stocking/Stocking3.png" type="image" aspectRatio="1.18"/>
+    <border/>
+  </frame>
+
+  <frame id="9" probability="0" minCount="0" showAtCount="5"
+	 order="4" facecount="-1" scale="1" tilt="0" shiftX="0" shiftY="0" 
+	 weight="-0.5" group="20" layoutSeq="0">
+    <border/>
+    <border/>
+    <border path="starcard/Gift/Gift5.png" type="image" aspectRatio="1.07"/>
+    <border/>
+    <border/>
+    <border path="starcard/Stocking/Stocking4.png" type="image" aspectRatio="1.18"/>
+    <border/>
+  </frame>
+
+  <!-- accents to fill gaps -->
+  <!--frame id="10" probability="0" minCount="0" showAtCount="100"
+	 order="0" facecount="-1" scale="1.5" tilt="5" shiftX="0" shiftY="0" 
+	 weight="2" group="21" layoutSeq="1">
+    <border/>
+    <border path="starcard/CandyHouse/tree.png" type="image" aspectRatio="0.9723"/>
+    <border/>
+  </frame>
+  <frame id="11" probability="0" minCount="0" showAtCount="100"
+	 order="0" facecount="-1" scale="1" tilt="0" shiftX="0" shiftY="0" 
+	 weight="1" group="21" layoutSeq="1">
+    <border/>
+    <border path="starcard/CandyHouse/mint_red.png" type="image" aspectRatio="1"/>
+    <border/>
+
+  </frame>
+  <frame id="12" probability="0" minCount="0" showAtCount="100"
+	 order="0" facecount="-1" scale="1" tilt="0" shiftX="0" shiftY="0" 
+	 weight="1" group="21" layoutSeq="1">
+    <border/>
+    <border path="starcard/CandyHouse/mint_green.png" type="image" aspectRatio="1"/>
+    <border/>
+  </frame-->
+  
+  <!-- background texture. This defines the overbleed region as well -->
+  <Element position="area" type="repeating" style="texture"
+	   width="2520" height="1800" x="-210" y="-150"
+	   alignment="both" layoutDensity="-1" group="0">
+    <image source="starcard/Bell/Bell_paper.png" width="302" height="300"/>
+    <image source="starcard/CandyHouse/CandyHouse_paper.png" width="265" height="242"/>
+    <image source="starcard/Gift/Gift_paper.png" width="213" height="236"/>
+    <image source="starcard/PearTree/PearTree_paper.png" width="312" height="387"/>
+    <image source="starcard/Star/Star_paper.png" width="152" height="159"/>
+    <image source="starcard/Stocking/Stocking_paper.png" width="602" height="386"/>
+    <image source="starcard/Tree/Tree_paper.png" width="261" height="294"/>
+    <image source="starcard/Wreath/Wreath_paper.png" width="297" height="203"/>
+    <image source="starcard/Jewish/Jewish_paper.png" width="207" height="219"/>
+  </Element>
+
+  <!-- background decoration -->
+  <Element position="area" type="background" width="2400" height="1684" x="-150" y="0"
+	   alignment="both" layoutDensity="-1" group="0">
+    <image/>
+    <image/>
+    <image/>
+    <image source="starcard/PearTree/PearTree.png" width="2400" height="1684"/>
+    <image/>
+  </Element>
+
+   <!-- text mode 1: right side text-->
+   <!-- text background, mode 1-->
+   <Element group="0" mode="1" width="810" height="1800" x="1500" y="-150" 
+	    layoutDensity="-1" position="right" type="repeating"
+	    style="texture">
+     <image source="starcard/Bell/Bell_text.png" width="302" height="300"/>
+     <image source="starcard/CandyHouse/CandyHouse_text.png" width="139" height="372"/>
+     <image source="starcard/Gift/Gift_text.png" width="213" height="236"/>
+     <image source="starcard/PearTree/PearTree_text.png" width="592" height="481"/>
+     <image source="starcard/Star/Star_text.png" width="152" height="159"/>
+     <image source="starcard/Stocking/Stocking_text.png" width="598" height="380"/>
+     <image source="starcard/Tree/Tree_text.png" width="261" height="294"/>
+     <image source="starcard/Wreath/Wreath_text.png" width="298" height="204"/>
+     <image source="starcard/Jewish/Jewish_text.png" width="207" height="219"/>
+   </Element>
+
+   <!-- text decorations, mode 1-->
+   <Element group="0" mode="1" width="600" height="1500" x="1500" y="0" 
+	    layoutDensity="-1" position="right" type="background">
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="starcard/Star/Star_text1.png" width="600" height="1500"/>
+     <image/>
+   </Element>
+
+   <!-- text divider, mode 1-->
+   <Element group="0" mode="1" width="68" height="1800" x="1466" y="-150" 
+	    layoutDensity="-1" position="right" marginpusher="left"
+	    type="repeating" style="looseFit" alignment="vertical" >
+     <image source="starcard/Bell/Bell_divider1.png" width="68" height="433"/>
+     <image source="starcard/CandyHouse/CandyHouse_divider1.png" width="68" height="69"/>
+     <image/>
+     <image source="starcard/PearTree/PearTree_divider1.png" width="68" height="10"/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="starcard/Wreath/Wreath_divider1.png" width="68" height="431"/>
+     <image source="starcard/Jewish/Jewish_divider1.png" width="68" height="216"/>
+   </Element>
+
+   <Element group="0" mode="1" width="182" height="1800" x="1430" y="-150" 
+	    layoutDensity="-1" position="right" marginpusher="left"
+	    type="repeating" style="looseFit" alignment="vertical" >
+     <image/>
+     <image/>
+     <image source="starcard/Gift/Gift_divider1.png" width="182" height="181"/>
+     <image/>
+     <image source="starcard/Star/Star_divider1.png" width="182" height="259"/>
+     <image source="starcard/Stocking/Stocking_divider1.png" width="182" height="231"/>
+     <image source="starcard/Tree/Tree_divider1.png" width="182" height="250"/>
+     <image/>
+   </Element>
+
+   <Element group="0" mode="1" width="182" height="1800" x="1988" y="-150" 
+	    layoutDensity="-1" position="right"
+	    type="repeating" style="looseFit" alignment="vertical" >
+     <image/>
+     <image/>
+     <image source="starcard/Gift/Gift_divider3.png" width="182" height="181"/>
+     <image/>
+   </Element>
+
+   <!-- text blocks, mode 1 -->
+   <text group="0" mode="1" id="text2" position="right" type="foreground"
+	 fontSize="64" fontWeight="normal" fontStyle="italic" fontFamily="sans-serif" 
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="All our best&#10;The HP Family" width="500" height="600" x="1550" y="800">
+     <textArea fontColor="0xE7C836"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0xAE1010"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0x2D2D2D"/>
+     <textArea fontColor="0x4B0C49"/>
+     <textArea fontColor="0x2E3F84"/>
+     <textArea fontColor="0x105B08"/>
+     <textArea fontColor="0x0000ff"/>
+   </text>
+   <text group="0" mode="1" id="text1" position="right" type="foreground" 
+	 fontSize="108" fontWeight="normal" fontStyle="normal" fontFamily="sans-serif"
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="Happy Holidays" width="500" height="600" x="1550"
+	 y="100">
+     <textArea fontColor="0xE7C836"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0xAE1010"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0x2D2D2D"/>
+     <textArea fontColor="0x4B0C49"/>
+     <textArea fontColor="0x2E3F84"/>
+     <textArea fontColor="0x105B08"/>
+     <textArea fontColor="0x0000ff"/>
+   </text>
+
+   <!-- text mode 2: left side text-->
+   <!-- text background, mode 2-->
+   <Element group="0" mode="2" width="810" height="1800" x="-210" y="-150" 
+	    layoutDensity="-1" position="left" type="repeating"
+	    style="texture">
+     <image source="starcard/Bell/Bell_text.png" width="302" height="300"/>
+     <image source="starcard/CandyHouse/CandyHouse_text.png" width="139" height="372"/>
+     <image source="starcard/Gift/Gift_text.png" width="213" height="236"/>
+     <image source="starcard/PearTree/PearTree_text.png" width="592" height="481"/>
+     <image source="starcard/Star/Star_text.png" width="152" height="159"/>
+     <image source="starcard/Stocking/Stocking_text.png" width="598" height="380"/>
+     <image source="starcard/Tree/Tree_text.png" width="261" height="294"/>
+     <image source="starcard/Wreath/Wreath_text.png" width="298" height="204"/>
+     <image source="starcard/Jewish/Jewish_text.png" width="207" height="219"/>
+   </Element>
+
+   <!-- text decorations, mode 2-->
+   <Element group="0" mode="2" width="600" height="1500" x="0" y="0" 
+	    layoutDensity="-1" position="left" type="background">
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="starcard/Star/Star_text1.png" width="600" height="1500"/>
+     <image/>
+   </Element>
+
+   <!-- text divider, mode 2-->
+   <Element group="0" mode="2" width="68" height="1800" x="566" y="-150" 
+	    layoutDensity="-1" position="left" marginpusher="right"
+	    type="repeating" style="looseFit" alignment="vertical" >
+     <image source="starcard/Bell/Bell_divider1.png" width="68" height="433"/>
+     <image source="starcard/CandyHouse/CandyHouse_divider1.png" width="68" height="69"/>
+     <image/>
+     <image source="starcard/PearTree/PearTree_divider1.png" width="68" height="10"/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="starcard/Wreath/Wreath_divider1.png" width="68" height="431"/>
+     <image source="starcard/Jewish/Jewish_divider1.png" width="68" height="216"/>
+   </Element>
+
+   <Element group="0" mode="2" width="182" height="1800" x="488" y="-150" 
+	    layoutDensity="-1" position="left" marginpusher="right"
+	    type="repeating" style="looseFit" alignment="vertical" >
+     <image/>
+     <image/>
+     <image source="starcard/Gift/Gift_divider3.png" width="182" height="181"/>
+     <image/>
+     <image source="starcard/Star/Star_divider3.png" width="182" height="259"/>
+     <image source="starcard/Stocking/Stocking_divider3.png" width="182" height="231"/>
+     <image source="starcard/Tree/Tree_divider3.png" width="182" height="250"/>
+     <image/>
+   </Element>
+
+   <Element group="0" mode="2" width="182" height="1800" x="-70" y="-150" 
+	    layoutDensity="-1" position="left"
+	    type="repeating" style="looseFit" alignment="vertical" >
+     <image/>
+     <image/>
+     <image source="starcard/Gift/Gift_divider1.png" width="182" height="181"/>
+     <image/>
+   </Element>
+
+   <!-- text blocks, mode 2 -->
+   <text group="0" mode="2" id="text2" position="left" type="foreground"
+	 fontSize="64" fontWeight="normal" fontStyle="italic" fontFamily="sans-serif" 
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="All our best&#10;The HP Family" width="500" height="600" x="50" y="800">
+     <textArea fontColor="0xE7C836"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0xAE1010"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0x2D2D2D"/>
+     <textArea fontColor="0x4B0C49"/>
+     <textArea fontColor="0x2E3F84"/>
+     <textArea fontColor="0x105B08"/>
+     <textArea fontColor="0x0000ff"/>
+   </text>
+   <text group="0" mode="2" id="text1" position="left" type="foreground" 
+	 fontSize="108" fontWeight="normal" fontStyle="normal" fontFamily="sans-serif"
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="Happy Holidays" width="500" height="600" x="50"
+	 y="100">
+     <textArea fontColor="0xE7C836"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0xAE1010"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0x2D2D2D"/>
+     <textArea fontColor="0x4B0C49"/>
+     <textArea fontColor="0x2E3F84"/>
+     <textArea fontColor="0x105B08"/>
+     <textArea fontColor="0x0000ff"/>
+   </text>
+
+   <!-- text mode 3: bottom text-->
+   <!-- text background, mode 3-->
+   <Element group="0" mode="3" width="2520" height="450" x="-150" y="1200" 
+	    layoutDensity="-1" position="bottom" type="repeating"
+	    style="texture">
+     <image source="starcard/Bell/Bell_text.png" width="302" height="300"/>
+     <image source="starcard/CandyHouse/CandyHouse_text.png" width="139" height="372"/>
+     <image source="starcard/Gift/Gift_text.png" width="213" height="236"/>
+     <image source="starcard/PearTree/PearTree_text.png" width="592" height="481"/>
+     <image source="starcard/Star/Star_text.png" width="152" height="159"/>
+     <image source="starcard/Stocking/Stocking_text.png" width="598" height="380"/>
+     <image source="starcard/Tree/Tree_text.png" width="261" height="294"/>
+     <image source="starcard/Wreath/Wreath_text.png" width="298" height="204"/>
+     <image source="starcard/Jewish/Jewish_text.png" width="207" height="219"/>
+   </Element>
+
+   <!-- text decorations, mode 3-->
+   <Element group="0" mode="3" width="2100" height="300" x="0" y="1200" 
+	    layoutDensity="-1" position="bottom" type="background">
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="starcard/Star/Star_text2.png" width="2100" height="300"/>
+     <image/>
+   </Element>
+
+   <!-- text divider, mode 3-->
+   <Element group="0" mode="3" width="2520" height="68" x="-210" y="1166"
+	    layoutDensity="-1" position="bottom" marginpusher="top"
+	    type="repeating" style="looseFit" alignment="horizontal" >
+     <image source="starcard/Bell/Bell_divider2.png" height="68" width="433"/>
+     <image source="starcard/CandyHouse/CandyHouse_divider2.png" height="68" width="69"/>
+     <image/>
+     <image source="starcard/PearTree/PearTree_divider2.png" height="68" width="10"/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="starcard/Wreath/Wreath_divider2.png" height="68" width="431"/>
+     <image source="starcard/Jewish/Jewish_divider2.png" height="68" width="216"/>
+   </Element>
+
+   <Element group="0" mode="3" width="2520" height="182" x="-210" y="1088" 
+	    layoutDensity="-1" position="bottom" marginpusher="top"
+	    type="repeating" style="looseFit" alignment="horizontal" >
+     <image/>
+     <image/>
+     <image/>
+     <image/>
+     <image source="starcard/Star/Star_divider2.png" height="182" width="259"/>
+     <image source="starcard/Stocking/Stocking_divider2.png" height="182" width="231"/>
+     <image source="starcard/Tree/Tree_divider2.png" height="182" width="250"/>
+     <image/>
+   </Element>
+
+   <Element group="0" mode="3" width="2520" height="182" x="-210" y="1130" 
+	    layoutDensity="-1" position="bottom"
+	    type="repeating" style="looseFit" alignment="horizontal" >
+     <image/>
+     <image/>
+     <image source="starcard/Gift/Gift_divider4.png" height="182" width="181"/>
+     <image/>
+   </Element>
+   <Element group="0" mode="3" width="2520" height="182" x="-210" y="1388" 
+	    layoutDensity="-1" position="bottom"
+	    type="repeating" style="looseFit" alignment="horizontal" >
+     <image/>
+     <image/>
+     <image source="starcard/Gift/Gift_divider2.png" height="182" width="181"/>
+     <image/>
+   </Element>
+
+   <!-- text blocks, mode 3 -->
+   <text group="0" mode="3" id="text2" position="bottom" type="foreground"
+	 fontSize="64" fontWeight="normal" fontStyle="italic" fontFamily="sans-serif" 
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="All our best&#10;The HP Family" width="900" height="240" x="1150" y="1240">
+     <textArea fontColor="0xE7C836"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0xAE1010"/>
+     <textArea fontColor="0xDDAC37"/>
+     <textArea fontColor="0x2D2D2D"/>
+     <textArea fontColor="0x4B0C49"/>
+     <textArea fontColor="0x2E3F84"/>
+     <textArea fontColor="0x105B08"/>
+     <textArea fontColor="0x0000ff"/>
+   </text>
+   <text group="0" mode="3" id="text1" position="bottom" type="foreground" 
+	 fontSize="108" fontWeight="normal" fontStyle="normal" fontFamily="sans-serif"
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="Happy Holidays" width="900" height="240" x="50"
+	 y="1240">
+     <textArea fontColor="0xE7C836"/>
+     <textArea fontColor="0xffffff"/>
+     <textArea fontColor="0xAE1010"/>
+     <textArea fontColor="0xDDAC37"/>
+     <textArea fontColor="0x2D2D2D"/>
+     <textArea fontColor="0x4B0C49"/>
+     <textArea fontColor="0x2E3F84"/>
+     <textArea fontColor="0x105B08"/>
+     <textArea fontColor="0x0000ff"/>
+   </text>
+
+</design>

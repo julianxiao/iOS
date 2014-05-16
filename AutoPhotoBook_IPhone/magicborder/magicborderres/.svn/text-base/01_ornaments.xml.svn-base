@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<design name="Ornaments" icon="ornaments/ornaments_icon.jpg" style="ornaments" 
+	layout="scatter" layoutDensityAmp="1" layoutDensityBlur="100" 
+	layoutDensityChannel="alpha" layoutDensityOffset="0" 
+	maxItemSize="700" minItemSize="350" sparseFactor="16"
+	scaleWithItems="0.6"
+	leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" itemGap="0"
+	type="border-page" width="2100" height="1500" x="0" y="0" version="1"
+	numRandomVersions="9" numModes="4" defaultNumItems="5" mode="1">
+
+  <versionMenu id="versions">
+    <menuitem label="Surprise Me" imagesrc="surprise.jpg"/>
+    <menuitem label="Dark Blue - Metal Snowflakes" 
+	      imagesrc="ornaments/DarkBlue/DarkBlue_icon.jpg"/>
+    <menuitem label="Dark Copper - Rocking Horses" 
+	      imagesrc="ornaments/DarkCopper/DarkCopper_icon.jpg"/>
+    <menuitem label="Dark Green - White Snowflakes" 
+	      imagesrc="ornaments/DarkGreen/DarkGreen_icon.jpg"/>
+    <menuitem label="Dark Red - Gingerbread Men"
+	      imagesrc="ornaments/DarkRed/DarkRed_icon.jpg"/>
+    <menuitem label="Gold - Pine Cones" imagesrc="ornaments/Gold/Gold_icon.jpg"/>
+    <menuitem label="Light Green - Oval Ornaments" 
+	      imagesrc="ornaments/LightGreen/LightGreen_icon.jpg"/>
+    <menuitem label="Plum - Beaded Globes" imagesrc="ornaments/Plum/Plum_icon.jpg"/>
+    <menuitem label="Rose - Glass Globes" imagesrc="ornaments/Rose/Rose_icon.jpg"/>
+    <menuitem label="Silver - Wreaths" imagesrc="ornaments/Silver/Silver_icon.jpg"/>
+  </versionMenu>
+
+   <frame faceScale="3" facecount="-1" id="0" minCount="1" order="0"
+	  probability="1" scale="1.4" shiftX="0" shiftY="0" tilt="0"
+	  weight="-1" padAlpha="1" group="11">
+      <border path="ornaments/globe_frame.png"
+	      cutout="ornaments/globe_gray_cutout.png"
+	      topMargin="122" bottomMargin="118" leftMargin="98" rightMargin="102"
+	      width="550" height="590" type="image" aspectRatio="1.07273"/>
+   </frame>
+
+   <Element position="area" type="repeating" style="texture" 
+	    width="2520" height="1800" x="-210" y="-150" 
+	    layoutDensity="-1" group="0">
+     <image source="ornaments/DarkBlue/DarkBlue_0011.png" width="303" height="300"/>
+     <image source="ornaments/DarkCopper/DarkCopper_0011.png" width="303" height="300"/>
+     <image source="ornaments/DarkGreen/DarkGreen_0011.png" width="303" height="300"/>
+     <image source="ornaments/DarkRed/DarkRed_0011.png" width="303" height="300"/>
+     <image source="ornaments/Gold/Gold_0011.png" width="303" height="300"/>
+     <image source="ornaments/LightGreen/LightGreen_0011.png" width="303" height="300"/>
+     <image source="ornaments/Plum/Plum_0011.png" width="303" height="300"/>
+     <image source="ornaments/Rose/Rose_0011.png" width="303" height="300"/>
+     <image source="ornaments/Silver/Silver_0011.png" width="303" height="300"/>
+   </Element>
+
+   <!-- string for bulb 3 -->
+   <Element alignment="vertical" group="3" height="497" layoutDensity="-1" position="middle" style="looseFit" type="repeating" width="390" x="-50" y="-150">
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+   </Element>
+
+   <!-- string for bulb 4 -->
+   <Element alignment="vertical" group="3" height="560" layoutDensity="-1" position="middle" style="looseFit" type="repeating" width="575" x="885" y="-150">
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+   </Element>
+
+   <!-- string for bulb 5 -->
+   <Element alignment="vertical" group="3" height="335" layoutDensity="-1" position="right" style="looseFit" type="repeating" width="390" x="1653" y="-150">
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+   </Element>
+
+   <!-- string for bulb 6 -->
+   <Element alignment="vertical" group="3" height="955" layoutDensity="-1" position="middle" style="looseFit" type="repeating" width="524" x="240" y="-150">
+      <image height="15" source="ornaments/string_wide.png" width="524"/>
+      <image height="15" source="ornaments/string_wide.png" width="524"/>
+      <image height="15" source="ornaments/string_wide.png" width="524"/>
+      <image height="15" source="ornaments/string_wide.png" width="524"/>
+      <image height="15" source="ornaments/string_wide.png" width="524"/>
+      <image height="15" source="ornaments/string_wide.png" width="524"/>
+      <image height="15" source="ornaments/string_wide.png" width="524"/>
+      <image height="15" source="ornaments/string_wide.png" width="524"/>
+      <image height="15" source="ornaments/string_wide.png" width="524"/>
+   </Element>
+
+   <!-- string for bulb 7 -->
+   <Element alignment="vertical" group="3" height="1180" layoutDensity="-1" position="middle" style="looseFit" type="repeating" width="575" x="1235" y="-150">
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+      <image height="16" source="ornaments/string_wide.png" width="575"/>
+   </Element>
+
+   <!-- string for bulb 8 -->
+   <Element alignment="vertical" group="3" height="885" layoutDensity="-1" position="right" style="looseFit" type="repeating" width="390" x="1868" y="-150">
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+      <image height="16" source="ornaments/string_narrow.png" width="400"/>
+   </Element>
+
+   <!-- bulb 1 -->
+   <Element group="2" height="649" layoutDensity="0" position="top" type="foreground" width="526" x="385" y="-277">
+      <image height="649" source="ornaments/DarkBlue/DarkBlue_0001.png" width="526"/>
+      <image height="649" source="ornaments/DarkCopper/DarkCopper_0001.png" width="526"/>
+      <image height="649" source="ornaments/DarkGreen/DarkGreen_0001.png" width="526"/>
+      <image height="649" source="ornaments/DarkRed/DarkRed_0001.png" width="526"/>
+      <image height="649" source="ornaments/Gold/Gold_0001.png" width="526"/>
+      <image height="649" source="ornaments/LightGreen/LightGreen_0001.png" width="526"/>
+      <image height="649" source="ornaments/Plum/Plum_0001.png" width="526"/>
+      <image height="649" source="ornaments/Rose/Rose_0001.png" width="526"/>
+      <image height="649" source="ornaments/Silver/Silver_0001.png" width="526"/>
+   </Element>
+
+   <!-- bulb 2 -->
+   <Element group="2" height="467" layoutDensity="0" position="top" type="foreground" width="383" x="1228" y="-117">
+      <image height="467" source="ornaments/DarkBlue/DarkBlue_0000.png" width="383"/>
+      <image height="467" source="ornaments/DarkCopper/DarkCopper_0000.png" width="383"/>
+      <image height="467" source="ornaments/DarkGreen/DarkGreen_0000.png" width="383"/>
+      <image height="467" source="ornaments/DarkRed/DarkRed_0000.png" width="383"/>
+      <image height="467" source="ornaments/Gold/Gold_0000.png" width="383"/>
+      <image height="467" source="ornaments/LightGreen/LightGreen_0000.png" width="383"/>
+      <image height="467" source="ornaments/Plum/Plum_0000.png" width="383"/>
+      <image height="467" source="ornaments/Rose/Rose_0000.png" width="383"/>
+      <image height="467" source="ornaments/Silver/Silver_0000.png" width="383"/>
+   </Element>
+
+   <!-- bulb 3 -->
+   <Element group="2" height="469" layoutDensity="0" position="middle" type="foreground" width="399" x="-58" y="346">
+      <image height="469" source="ornaments/DarkBlue/DarkBlue_0005.png" width="399"/>
+      <image height="469" source="ornaments/DarkCopper/DarkCopper_0005.png" width="399"/>
+      <image height="469" source="ornaments/DarkGreen/DarkGreen_0005.png" width="399"/>
+      <image height="469" source="ornaments/DarkRed/DarkRed_0005.png" width="399"/>
+      <image height="469" source="ornaments/Gold/Gold_0005.png" width="399"/>
+      <image height="469" source="ornaments/LightGreen/LightGreen_0005.png" width="399"/>
+      <image height="469" source="ornaments/Plum/Plum_0005.png" width="399"/>
+      <image height="469" source="ornaments/Rose/Rose_0005.png" width="399"/>
+      <image height="469" source="ornaments/Silver/Silver_0005.png" width="399"/>
+   </Element>
+ 
+   <!-- bulb 4 -->
+   <Element group="2" height="619" layoutDensity="0" position="middle" type="foreground" width="505" x="928" y="400">
+      <image height="619" source="ornaments/DarkBlue/DarkBlue_0004.png" width="505"/>
+      <image height="619" source="ornaments/DarkCopper/DarkCopper_0004.png" width="505"/>
+      <image height="619" source="ornaments/DarkGreen/DarkGreen_0004.png" width="505"/>
+      <image height="619" source="ornaments/DarkRed/DarkRed_0004.png" width="505"/>
+      <image height="619" source="ornaments/Gold/Gold_0004.png" width="505"/>
+      <image height="619" source="ornaments/LightGreen/LightGreen_0004.png" width="505"/>
+      <image height="619" source="ornaments/Plum/Plum_0004.png" width="505"/>
+      <image height="619" source="ornaments/Rose/Rose_0004.png" width="505"/>
+      <image height="619" source="ornaments/Silver/Silver_0004.png" width="505"/>
+   </Element>
+
+   <!-- bulb 5 -->
+   <Element group="2" height="469" layoutDensity="0" position="right" type="foreground" width="399" x="1643" y="183">
+      <image height="469" source="ornaments/DarkBlue/DarkBlue_0005.png" width="399"/>
+      <image height="469" source="ornaments/DarkCopper/DarkCopper_0005.png" width="399"/>
+      <image height="469" source="ornaments/DarkGreen/DarkGreen_0005.png" width="399"/>
+      <image height="469" source="ornaments/DarkRed/DarkRed_0005.png" width="399"/>
+      <image height="469" source="ornaments/Gold/Gold_0005.png" width="399"/>
+      <image height="469" source="ornaments/LightGreen/LightGreen_0005.png" width="399"/>
+      <image height="469" source="ornaments/Plum/Plum_0005.png" width="399"/>
+      <image height="469" source="ornaments/Rose/Rose_0005.png" width="399"/>
+      <image height="469" source="ornaments/Silver/Silver_0005.png" width="399"/>
+   </Element>
+
+   <!-- bulb 6 -->
+   <Element group="2" height="643" layoutDensity="0" position="middle" type="foreground" width="524" x="250" y="800">
+      <image height="643" source="ornaments/DarkBlue/DarkBlue_0003.png" width="524"/>
+      <image height="643" source="ornaments/DarkCopper/DarkCopper_0003.png" width="524"/>
+      <image height="643" source="ornaments/DarkGreen/DarkGreen_0003.png" width="524"/>
+      <image height="643" source="ornaments/DarkRed/DarkRed_0003.png" width="524"/>
+      <image height="643" source="ornaments/Gold/Gold_0003.png" width="524"/>
+      <image height="643" source="ornaments/LightGreen/LightGreen_0003.png" width="524"/>
+      <image height="643" source="ornaments/Plum/Plum_0003.png" width="524"/>
+      <image height="643" source="ornaments/Rose/Rose_0003.png" width="524"/>
+      <image height="643" source="ornaments/Silver/Silver_0003.png" width="524"/>
+   </Element>
+
+   <!-- bulb 7 -->
+   <Element group="2" height="643" layoutDensity="0" position="bottom" type="foreground" width="524" x="1275" y="1005">
+      <image height="643" source="ornaments/DarkBlue/DarkBlue_0003.png" width="524"/>
+      <image height="643" source="ornaments/DarkCopper/DarkCopper_0003.png" width="524"/>
+      <image height="643" source="ornaments/DarkGreen/DarkGreen_0003.png" width="524"/>
+      <image height="643" source="ornaments/DarkRed/DarkRed_0003.png" width="524"/>
+      <image height="643" source="ornaments/Gold/Gold_0003.png" width="524"/>
+      <image height="643" source="ornaments/LightGreen/LightGreen_0003.png" width="524"/>
+      <image height="643" source="ornaments/Plum/Plum_0003.png" width="524"/>
+      <image height="643" source="ornaments/Rose/Rose_0003.png" width="524"/>
+      <image height="643" source="ornaments/Silver/Silver_0003.png" width="524"/>
+   </Element>
+
+   <!-- bulb 8 -->
+   <Element group="2" height="496" layoutDensity="0" position="right" type="foreground" width="402" x="1876" y="733">
+      <image height="496" source="ornaments/DarkBlue/DarkBlue_0001.png" width="402"/>
+      <image height="496" source="ornaments/DarkCopper/DarkCopper_0001.png" width="402"/>
+      <image height="496" source="ornaments/DarkGreen/DarkGreen_0001.png" width="402"/>
+      <image height="496" source="ornaments/DarkRed/DarkRed_0001.png" width="402"/>
+      <image height="496" source="ornaments/Gold/Gold_0001.png" width="402"/>
+      <image height="496" source="ornaments/LightGreen/LightGreen_0001.png" width="402"/>
+      <image height="496" source="ornaments/Plum/Plum_0001.png" width="402"/>
+      <image height="496" source="ornaments/Rose/Rose_0001.png" width="402"/>
+      <image height="496" source="ornaments/Silver/Silver_0001.png" width="402"/>
+   </Element>
+
+   <!-- accent design 1 -->
+   <Element group="4" height="600" layoutDensity="-1" position="middle" type="foreground" width="600" x="250" y="80">
+      <image height="600" source="ornaments/Accents/metalSnowFlake.png" width="600"/>
+      <image height="600" source="ornaments/Accents/horse1.png" width="600"/>
+      <image height="600" source="ornaments/Accents/whiteSnowFlake.png" width="600"/>
+      <image height="600" source="ornaments/Accents/Gingerbread.png" width="600"/>
+      <image height="600" source="ornaments/Accents/bluePineCone.png" width="600"/>
+      <image height="600" source="ornaments/Accents/BlueOval.png" width="600"/>
+      <image height="600" source="ornaments/Accents/Beaded.png" width="600"/>
+      <image height="600" source="ornaments/Accents/GreenGlass.png" width="600"/>
+      <image height="600" source="ornaments/Accents/WreathGreenBow.png" width="600"/>
+   </Element>
+
+   <!-- accent design 2 -->
+   <Element group="5" height="600" layoutDensity="-1" position="middle" type="foreground" width="600" x="700" y="650">
+      <image height="600" source="ornaments/Accents/metalSnowFlake.png" width="600"/>
+      <image height="600" source="ornaments/Accents/horse2.png" width="600"/>
+      <image height="600" source="ornaments/Accents/whiteSnowFlake.png" width="600"/>
+      <image height="600" source="ornaments/Accents/Gingerbread.png" width="600"/>
+      <image height="600" source="ornaments/Accents/pinkPineCone.png" width="600"/>
+      <image height="600" source="ornaments/Accents/GrayOval.png" width="600"/>
+      <image height="600" source="ornaments/Accents/BronzeBeaded.png" width="600"/>
+      <image height="600" source="ornaments/Accents/PinkGlass.png" width="600"/>
+      <image height="600" source="ornaments/Accents/WreathRedBow.png" width="600"/>
+   </Element>
+
+   <!-- accent design 3 -->
+   <Element group="6" height="600" layoutDensity="-1" position="middle" type="foreground" width="600" x="1450" y="300">
+      <image height="600" source="ornaments/Accents/metalSnowFlake.png" width="600"/>
+      <image height="600" source="ornaments/Accents/horse3.png" width="600"/>
+      <image height="600" source="ornaments/Accents/whiteSnowFlake.png" width="600"/>
+      <image height="600" source="ornaments/Accents/Gingerbread.png" width="600"/>
+      <image height="600" source="ornaments/Accents/bluePineCone.png" width="600"/>
+      <image height="600" source="ornaments/Accents/BlueOval.png" width="600"/>
+      <image height="600" source="ornaments/Accents/GoldBeaded.png" width="600"/>
+      <image height="600" source="ornaments/Accents/GreenGlass.png" width="600"/>
+      <image height="600" source="ornaments/Accents/WreathBlueBow.png" width="600"/>
+   </Element>
+
+   <!-- text mode 1-->
+   <!-- text background-->
+   <Element group="2" mode="1" width="810" height="1800" x="1500" y="-150" 
+	    layoutDensity="-1" position="right" type="repeating" style="texture">
+     <image source="ornaments/DarkBlue/DarkBlue_0020.png" width="20" height="20"/>
+     <image source="ornaments/DarkCopper/DarkCopper_0020.png" width="20" height="20"/>
+     <image source="ornaments/DarkGreen/DarkGreen_0020.png" width="20" height="20"/>
+     <image source="ornaments/DarkRed/DarkRed_0020.png" width="20" height="20"/>
+     <image source="ornaments/Gold/Gold_0020.png" width="20" height="20"/>
+     <image source="ornaments/LightGreen/LightGreen_0020.png" width="20" height="20"/>
+     <image source="ornaments/Plum/Plum_0020.png" width="20" height="20"/>
+     <image source="ornaments/Rose/Rose_0020.png" width="20" height="20"/>
+     <image source="ornaments/Silver/Silver_0020.png" width="20" height="20"/>
+   </Element>
+
+   <!-- text divider-->
+   <Element group="2" mode="1" width="42" height="1800" x="1479" y="-150" 
+	    layoutDensity="-1" position="right" marginpusher="left"
+	    type="repeating" style="looseFit" alignment="vertical" >
+     <image source="ornaments/DarkBlue/DarkBlue_0021.png" width="42" height="266"/>
+     <image source="ornaments/DarkCopper/DarkCopper_0021.png" width="42" height="266"/>
+     <image source="ornaments/DarkGreen/DarkGreen_0021.png" width="42" height="266"/>
+     <image source="ornaments/DarkRed/DarkRed_0021.png" width="42" height="266"/>
+     <image source="ornaments/Gold/Gold_0021.png" width="42" height="142"/>
+     <image source="ornaments/LightGreen/LightGreen_0021.png" width="42" height="266"/>
+     <image source="ornaments/Plum/Plum_0021.png" width="42" height="266"/>
+     <image source="ornaments/Rose/Rose_0021.png" width="42" height="266"/>
+     <image source="ornaments/Silver/Silver_0021.png" width="42" height="266"/>
+   </Element>
+
+   <!-- text blocks -->
+   <text group="2" mode="1" id="text2" position="right" type="foreground"
+	 fontSize="64" fontWeight="normal" fontStyle="italic" fontFamily="sans-serif" 
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="All our best&#10;The HP Family" width="500" height="600" x="1550" y="800">
+     <textArea fontColor="0x392A2B"/>
+     <textArea fontColor="0x591312"/>
+     <textArea fontColor="0x3C1E17"/>
+     <textArea fontColor="0xA91418"/>
+     <textArea fontColor="0xE3CF9C"/>
+     <textArea fontColor="0xBAD5B6"/>
+     <textArea fontColor="0x401F0D"/>
+     <textArea fontColor="0x272D18"/>
+     <textArea fontColor="0x272D18"/>
+   </text>
+   <text group="2" mode="1" id="text1" position="right" type="foreground" 
+	 fontSize="108" fontWeight="normal" fontStyle="normal" fontFamily="sans-serif"
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="Happy Holidays" width="500" height="600" x="1550"
+	 y="100">
+     <textArea fontColor="0x392A2B"/>
+     <textArea fontColor="0x591312"/>
+     <textArea fontColor="0x3C1E17"/>
+     <textArea fontColor="0xA91418"/>
+     <textArea fontColor="0xE3CF9C"/>
+     <textArea fontColor="0xBAD5B6"/>
+     <textArea fontColor="0x401F0D"/>
+     <textArea fontColor="0x272D18"/>
+     <textArea fontColor="0x272D18"/>
+   </text>
+
+   <!-- text mode 2-->
+   <!-- text background-->
+   <Element group="2" mode="2" width="810" height="1800" x="-210" y="-150" 
+	    layoutDensity="-1" position="left" type="repeating" style="texture">
+     <image source="ornaments/DarkBlue/DarkBlue_0020.png" width="20" height="20"/>
+     <image source="ornaments/DarkCopper/DarkCopper_0020.png" width="20" height="20"/>
+     <image source="ornaments/DarkGreen/DarkGreen_0020.png" width="20" height="20"/>
+     <image source="ornaments/DarkRed/DarkRed_0020.png" width="20" height="20"/>
+     <image source="ornaments/Gold/Gold_0020.png" width="20" height="20"/>
+     <image source="ornaments/LightGreen/LightGreen_0020.png" width="20" height="20"/>
+     <image source="ornaments/Plum/Plum_0020.png" width="20" height="20"/>
+     <image source="ornaments/Rose/Rose_0020.png" width="20" height="20"/>
+     <image source="ornaments/Silver/Silver_0020.png" width="20" height="20"/>
+   </Element>
+
+   <!-- text divider-->
+   <Element group="2" mode="2" width="42" height="1800" x="579" y="-150" 
+	    layoutDensity="-1" position="left" marginpusher="right"
+	    type="repeating" style="looseFit" alignment="vertical" >
+     <image source="ornaments/DarkBlue/DarkBlue_0021.png" width="42" height="266"/>
+     <image source="ornaments/DarkCopper/DarkCopper_0021.png" width="42" height="266"/>
+     <image source="ornaments/DarkGreen/DarkGreen_0021.png" width="42" height="266"/>
+     <image source="ornaments/DarkRed/DarkRed_0021.png" width="42" height="266"/>
+     <image source="ornaments/Gold/Gold_0021.png" width="42" height="142"/>
+     <image source="ornaments/LightGreen/LightGreen_0021.png" width="42" height="266"/>
+     <image source="ornaments/Plum/Plum_0021.png" width="42" height="266"/>
+     <image source="ornaments/Rose/Rose_0021.png" width="42" height="266"/>
+     <image source="ornaments/Silver/Silver_0021.png" width="42" height="266"/>
+   </Element>
+
+   <!-- text blocks -->
+   <text group="2" mode="2" id="text2" position="left" type="foreground"
+	 fontSize="64" fontWeight="normal" fontStyle="italic" fontFamily="sans-serif" 
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="All our best&#10;The HP Family" width="500" height="600" x="50" y="800">
+     <textArea fontColor="0x392A2B"/>
+     <textArea fontColor="0x591312"/>
+     <textArea fontColor="0x3C1E17"/>
+     <textArea fontColor="0xA91418"/>
+     <textArea fontColor="0xE3CF9C"/>
+     <textArea fontColor="0xBAD5B6"/>
+     <textArea fontColor="0x401F0D"/>
+     <textArea fontColor="0x272D18"/>
+     <textArea fontColor="0x272D18"/>
+   </text>
+   <text group="2" mode="2" id="text1" position="left" type="foreground" 
+	 fontSize="108" fontWeight="normal" fontStyle="normal" fontFamily="sans-serif"
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="Happy Holidays" width="500" height="600" x="50"
+	 y="100">
+     <textArea fontColor="0x392A2B"/>
+     <textArea fontColor="0x591312"/>
+     <textArea fontColor="0x3C1E17"/>
+     <textArea fontColor="0xA91418"/>
+     <textArea fontColor="0xE3CF9C"/>
+     <textArea fontColor="0xBAD5B6"/>
+     <textArea fontColor="0x401F0D"/>
+     <textArea fontColor="0x272D18"/>
+     <textArea fontColor="0x272D18"/>
+   </text>
+
+   <!-- text mode 3-->
+   <!-- text background 1, mode 3-->
+   <!--Element group="2" mode="3" width="2520" height="350" x="-210" y="-150" 
+	    layoutDensity="-1" position="top" type="repeating" style="texture">
+     <image source="ornaments/DarkBlue/DarkBlue_0020.png" width="20" height="20"/>
+     <image source="ornaments/DarkCopper/DarkCopper_0020.png" width="20" height="20"/>
+     <image source="ornaments/DarkGreen/DarkGreen_0020.png" width="20" height="20"/>
+     <image source="ornaments/DarkRed/DarkRed_0020.png" width="20" height="20"/>
+     <image source="ornaments/Gold/Gold_0020.png" width="20" height="20"/>
+     <image source="ornaments/LightGreen/LightGreen_0020.png" width="20" height="20"/>
+     <image source="ornaments/Plum/Plum_0020.png" width="20" height="20"/>
+     <image source="ornaments/Rose/Rose_0020.png" width="20" height="20"/>
+     <image source="ornaments/Silver/Silver_0020.png" width="20" height="20"/>
+   </Element-->
+
+   <!-- text background 2, mode 3-->
+   <Element group="2" mode="3" width="2520" height="450" x="-210" y="1200" 
+	    layoutDensity="-1" position="bottom" type="repeating" style="texture">
+     <image source="ornaments/DarkBlue/DarkBlue_0020.png" width="20" height="20"/>
+     <image source="ornaments/DarkCopper/DarkCopper_0020.png" width="20" height="20"/>
+     <image source="ornaments/DarkGreen/DarkGreen_0020.png" width="20" height="20"/>
+     <image source="ornaments/DarkRed/DarkRed_0020.png" width="20" height="20"/>
+     <image source="ornaments/Gold/Gold_0020.png" width="20" height="20"/>
+     <image source="ornaments/LightGreen/LightGreen_0020.png" width="20" height="20"/>
+     <image source="ornaments/Plum/Plum_0020.png" width="20" height="20"/>
+     <image source="ornaments/Rose/Rose_0020.png" width="20" height="20"/>
+     <image source="ornaments/Silver/Silver_0020.png" width="20" height="20"/>
+   </Element>
+
+   <!-- text divider, mode 3-->
+   <Element group="2" mode="3" width="2520" height="42" x="-210" y="1179" 
+	    layoutDensity="-1" position="bottom" marginpusher="top"
+	    type="repeating" style="looseFit" alignment="horizontal" >
+     <image source="ornaments/DarkBlue/DarkBlue_0022.png" width="280" height="42"/>
+     <image source="ornaments/DarkCopper/DarkCopper_0022.png" width="280" height="42"/>
+     <image source="ornaments/DarkGreen/DarkGreen_0022.png" width="280" height="42"/>
+     <image source="ornaments/DarkRed/DarkRed_0022.png" width="280" height="42"/>
+     <image source="ornaments/Gold/Gold_0022.png" width="142" height="42"/>
+     <image source="ornaments/LightGreen/LightGreen_0022.png" width="280" height="42"/>
+     <image source="ornaments/Plum/Plum_0022.png" width="280" height="42"/>
+     <image source="ornaments/Rose/Rose_0022.png" width="280" height="42"/>
+     <image source="ornaments/Silver/Silver_0022.png" width="280" height="42"/>
+   </Element>
+
+   <!-- text blocks, mode 3-->
+   <text group="2" mode="3" id="text2" position="bottom" type="foreground"
+	 fontSize="64" fontWeight="normal" fontStyle="italic" fontFamily="sans-serif" 
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="All our best&#10;The HP Family" width="900" height="240" x="1150" y="1240">
+     <textArea fontColor="0x392A2B"/>
+     <textArea fontColor="0x591312"/>
+     <textArea fontColor="0x3C1E17"/>
+     <textArea fontColor="0xA91418"/>
+     <textArea fontColor="0xE3CF9C"/>
+     <textArea fontColor="0xBAD5B6"/>
+     <textArea fontColor="0x401F0D"/>
+     <textArea fontColor="0x272D18"/>
+     <textArea fontColor="0x272D18"/>
+   </text>
+   <text group="2" mode="3" id="text1" position="bottom" type="foreground" 
+	 fontSize="108" fontWeight="normal" fontStyle="normal" fontFamily="sans-serif"
+	 fontColor="0x000000" areaAlpha="0" textAlign="center"
+	 text="Happy Holidays" width="900" height="240" x="50"
+	 y="1240">
+     <textArea fontColor="0x392A2B"/>
+     <textArea fontColor="0x591312"/>
+     <textArea fontColor="0x3C1E17"/>
+     <textArea fontColor="0xA91418"/>
+     <textArea fontColor="0xE3CF9C"/>
+     <textArea fontColor="0xBAD5B6"/>
+     <textArea fontColor="0x401F0D"/>
+     <textArea fontColor="0x272D18"/>
+     <textArea fontColor="0x272D18"/>
+   </text>
+
+</design>

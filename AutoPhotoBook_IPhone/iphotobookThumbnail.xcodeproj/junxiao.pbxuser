@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	182319731162387C00E8A0AB /* iPhotobook-iPad */ = {
+		activeExec = 0;
+		executables = (
+			37DF73C6126D4ADC000DC57E /* iPhotobook-iPad */,
+		);
+	};
+	1D3623240D0F684500981E51 /* iphotobookThumbnailAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {866, 611}}";
+			sepNavSelRange = "{1659, 11}";
+			sepNavVisRange = "{1283, 519}";
+		};
+	};
+	1D3623250D0F684500981E51 /* iphotobookThumbnailAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {866, 1482}}";
+			sepNavSelRange = "{3695, 11}";
+			sepNavVisRange = "{3183, 1006}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* iPhotobook */ = {
+		activeExec = 0;
+		executables = (
+			37DF73C5126D4ADC000DC57E /* iPhotobook */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 37DF73C5126D4ADC000DC57E /* iPhotobook */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iPhotobook */;
+		codeSenseManager = 37DF73D5126D4B1E000DC57E /* Code sense */;
+		executables = (
+			37DF73C5126D4ADC000DC57E /* iPhotobook */,
+			37DF73C6126D4ADC000DC57E /* iPhotobook-iPad */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					572,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321481139;
+			PBXWorkspaceStateSaveDate = 321481139;
+		};
+		perUserProjectItems = {
+			370A878A12728F4F000F4348 /* PBXTextBookmark */ = 370A878A12728F4F000F4348 /* PBXTextBookmark */;
+			377A13161272708500A96EE7 /* PBXTextBookmark */ = 377A13161272708500A96EE7 /* PBXTextBookmark */;
+			377A13171272708500A96EE7 /* PBXTextBookmark */ = 377A13171272708500A96EE7 /* PBXTextBookmark */;
+			37CD696113296ACA00E6E0CB /* PBXTextBookmark */ = 37CD696113296ACA00E6E0CB /* PBXTextBookmark */;
+		};
+		sourceControlManager = 37DF73D4126D4B1E000DC57E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	360355260F99413000812FB0 /* GalleriesViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 3159}}";
+			sepNavSelRange = "{6840, 9}";
+			sepNavVisRange = "{6453, 928}";
+		};
+	};
+	368CBC4F0F8297EB0075B260 /* Page.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {957, 1534}}";
+			sepNavSelRange = "{4227, 9}";
+			sepNavVisRange = "{3926, 767}";
+		};
+	};
+	36985A1F0F7D4B61008FC606 /* briclib */ = {
+		activeExec = 0;
+	};
+	370A878A12728F4F000F4348 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iphotobookThumbnailAppDelegate.m */;
+		name = "iphotobookThumbnailAppDelegate.m: 99";
+		rLen = 11;
+		rLoc = 3695;
+		rType = 0;
+		vrLen = 1006;
+		vrLoc = 3183;
+	};
+	377A13161272708500A96EE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4AC81BD113B959200629EA1 /* LoginController.m */;
+		name = "LoginController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 1018;
+	};
+	377A13171272708500A96EE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 360355260F99413000812FB0 /* GalleriesViewController.m */;
+		name = "GalleriesViewController.m: 138";
+		rLen = 9;
+		rLoc = 5375;
+		rType = 0;
+		vrLen = 1523;
+		vrLoc = 4481;
+	};
+	37CD696113296ACA00E6E0CB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iphotobookThumbnailAppDelegate.m */;
+		name = "iphotobookThumbnailAppDelegate.m: 99";
+		rLen = 11;
+		rLoc = 3695;
+		rType = 0;
+		vrLen = 1006;
+		vrLoc = 3183;
+	};
+	37DF73C5126D4ADC000DC57E /* iPhotobook */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iPhotobook;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	37DF73C6126D4ADC000DC57E /* iPhotobook-iPad */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "iPhotobook-iPad";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	37DF73D4126D4B1E000DC57E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	37DF73D5126D4B1E000DC57E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E4AC81BC113B959200629EA1 /* LoginController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 338}}";
+			sepNavSelRange = "{353, 9}";
+			sepNavVisRange = "{146, 362}";
+		};
+	};
+	E4AC81BD113B959200629EA1 /* LoginController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 819}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1018, 873}";
+		};
+	};
+	E4CC26151142A5BF00BDC785 /* LoginQueue.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 1586}}";
+			sepNavSelRange = "{1853, 11}";
+			sepNavVisRange = "{1151, 493}";
+		};
+	};
+}
